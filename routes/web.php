@@ -14,106 +14,111 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages/welcome');
-});
-Route::get('/index', function () {
     return view('pages/index');
-});
+})->name('home');
+
+Route::get('/about', function () {
+    return view('pages/about');
+})->name('about-us');
+
 Route::get('/attorney', function () {
     return view('pages/attorney');
-});
+})->name('attorney');
+
+Route::get('/contact', function () {
+    return view('pages/contact');
+})->name('contact-us');
+
+Route::get('/practice-areas', function () {
+    return view('pages/services');
+})->name('practice-areas');
+
+Route::get('/clients', function () {
+    return view('pages/clients');
+})->name('clients');
+
+Route::get('/gallery.', function () {
+    return view('pages/gallery');
+})->name('gallery');
+
+Route::get('/article', function () {
+    return view('pages/article');
+})->name('article');
+
+
+
 Route::get('/attorney-details', function () {
     return view('pages/attorney-details');
 });
-Route::get('/about', function () {
-    return view('pages/about');
-});
-Route::get('/blog', function () {
-    return view('pages/blog');
-});
-Route::get('/blog-details', function () {
-    return view('pages/blog-details');
-});
-Route::get('/case-study', function () {
-    return view('pages/case-study');
-});
-Route::get('/case-study-details', function () {
-    return view('pages/case-study-details');
-});
-Route::get('/contact', function () {
-    return view('pages/contact');
-});
-Route::get('/gallery.', function () {
-    return view('pages/gallery.');
-});
+
+
+Route::get('/article-details/birth-of-world', function () {
+    return view('pages/articles/birth-of-world');
+})->name('article.birth-of-world');
+
+Route::get('/article-details/blues-of-trust', function () {
+    return view('pages/articles/blues-of-trust');
+})->name('article.blues-of-trust');
+
+Route::get('/article-details/pak-china', function () {
+    return view('pages/articles/pak-china');
+})->name('article.pak-china');
 
 Route::get('/privacy-policy', function () {
     return view('pages/privacy-policy');
 });
-Route::get('/services', function () {
-    return view('pages/services');
-});
+
 Route::get('/service-details', function () {
     return view('pages/service-details');
 });
-Route::get('/sign-in', function () {
-    return view('pages/sign-in');
-});
-Route::get('/sign-up', function () {
-    return view('pages/sign-up');
-});
-Route::get('/team', function () {
-    return view('pages/team');
-});
-Route::get('/terms-condition', function () {
-    return view('pages/terms-condition');
-});
-Route::get('/testimonials', function () {
-    return view('pages/testimonials');
-});
-Route::get('/alternate-dispute', function () {
-    return view('pages/alternate-dispute');
-});
+
+
+
 Route::get('/civil', function () {
-    return view('pages/civil');
-});
+    return view('pages/practice_area/civil');
+})->name('practice-area.civil');
 Route::get('/clinical', function () {
-    return view('pages/clinical');
-});
+    return view('pages/practice_area/clinical');
+})->name('practice-area.clinical');
 Route::get('/corporate', function () {
-    return view('pages/corporate');
-});
+    return view('pages/practice_area/corporate');
+})->name('practice-area.corporate');
 Route::get('/criminal', function () {
-    return view('pages/criminal');
-});
+    return view('pages/practice_area/criminal');
+})->name('practice-area.criminal');
 Route::get('/foreign', function () {
-    return view('pages/foreign');
-});
+    return view('pages/practice_area/foreign');
+})->name('practice-area.foreign');
 
 Route::get('/immigration', function () {
-    return view('pages/immigration');
-});
+    return view('pages/practice_area/immigration');
+})->name('practice-area.immigration');
 
 Route::get('/international', function () {
-    return view('pages/international');
-});
+    return view('pages/practice_area/international');
+})->name('practice-area.international');
+
+Route::get('/alternate-dispute', function () {
+    return view('pages/practice_area/alternate-dispute');
+})->name('practice-area.alternate-dispute');
 
 Route::get('/legislative-drafting', function () {
-    return view('pages/legislative-drafting');
-});
+    return view('pages/practice_area/legislative-drafting');
+})->name('practice-area.legislative-drafting');
 
 Route::get('/media-law', function () {
-    return view('pages/media-law');
-});
+    return view('pages/practice_area/media-law');
+})->name('practice-area.media-law');
 
 Route::get('/multi-Jurisdictional', function () {
-    return view('pages/multi-Jurisdictional');
-});
+    return view('pages/practice_area/multi-Jurisdictional');
+})->name('practice-area.multi-Jurisdictional');
 
 Route::get('/prof-negligence', function () {
-    return view('pages/prof-negligence');
-});
+    return view('pages/practice_area/prof-negligence');
+})->name('practice-area.prof-negligence');
+
 Route::get('/tax-audit', function () {
-    return view('pages/tax-audit');
-})->name('jhfhgfhg');
+    return view('pages/practice_area/tax-audit');
+})->name('practice-area.tax-audit');
 
