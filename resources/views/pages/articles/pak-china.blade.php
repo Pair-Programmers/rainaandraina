@@ -15,10 +15,10 @@
             <div class="d-table-cell">
                 <div class="container">
                     <div class="page-content">
-                        <h2>Blog Details</h2>
+                        <h2>Article Details</h2>
                         <ul>
                             <li><a href="index.html">Home <i class="las la-angle-right"></i></a></li>
-                            <li>Blog Details</li>
+                            <li>Article Details</li>
                         </ul>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                             <ul class="blog-list">
                                 <li>
                                     <i class="las la-calendar"></i>
-                                    26 Sep 2021
+                                    16 March 2022
                                 </li>
                                 <li>
                                     <i class="las la-user-tie"></i>
