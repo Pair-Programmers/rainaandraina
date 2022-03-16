@@ -18,7 +18,7 @@
                     <h2>Article</h2>
                     <ul>
                         <li><a href="index.html">Home <i class="las la-angle-right"></i></a></li>
-                        <li>Article</li>
+                        <li>Articles</li>
                     </ul>
                 </div>
             </div>
