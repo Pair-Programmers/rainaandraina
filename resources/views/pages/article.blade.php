@@ -24,6 +24,7 @@
             </div>
         </div>
     </div>
+    
 </div>
 <!-- End Page banner Area -->
 
@@ -112,7 +113,7 @@
                 </div>
             </div>
 
-            
+
         </div>
         <!-- Pagination -->
         <!-- <div class="col-lg-12 col-md-12">
