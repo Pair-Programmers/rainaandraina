@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
+use App\Models\BlogCategory;
 use Illuminate\Http\Request;
 
 class BlogController extends Controller
@@ -11,10 +13,27 @@ class BlogController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(BlogCategory $category=null)
     {
-        //
+        $blogs = Blog::orderBy('id', 'desc')
+        ->where('is_active', true)
+        ->when($category, function ($query, $category) {
+            $query->where('blog_category_id', $category->id);
+            // dd($category);
+        })
+        ->paginate(10);
+        $categories = BlogCategory::all();
+        $recentBlogs = Blog::orderBy('id', 'desc')->get()->take(3);
+        return view('pages.articles.index', compact('blogs', 'categories', 'recentBlogs'));
     }
+
+    // public function indexByCategory(BlogCategory $category)
+    // {
+    //     $blogs = Blog::orderBy('id', 'desc')->where('blog_category_id', $category->id)
+    //     ->paginate(5);
+    //     $categories = BlogCategory::all();
+    //     return view('pages.articles.index', compact('blogs'));
+    // }
 
     /**
      * Show the form for creating a new resource.
@@ -40,21 +59,23 @@ class BlogController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Blog $blog)
     {
-        //
+        $recentBlogs = Blog::orderBy('id', 'desc')->get()->take(3);
+        $categories = BlogCategory::all();
+        return view('pages.articles.show', compact('blog', 'categories', 'recentBlogs'));
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Blog $blog)
     {
         //
     }
@@ -63,10 +84,10 @@ class BlogController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Blog $blog)
     {
         //
     }

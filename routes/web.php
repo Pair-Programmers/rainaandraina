@@ -122,3 +122,44 @@ Route::get('/tax-audit', function () {
     return view('pages/practice_area/tax-audit');
 })->name('practice-area.tax-audit');
 
+Route::get('/articleddd/{category?}', [App\Http\Controllers\BlogController::class, 'index'])->name('blog.index');
+Route::get('/article/{blog}', [App\Http\Controllers\BlogController::class, 'show'])->name('blog.show');
+
+
+//adminpanel
+Route::get('admin/login', [App\Http\Controllers\Adminpanel\AuthController::class, 'show'])->name('admin.login.show');
+Route::post('admin/login', [App\Http\Controllers\Adminpanel\AuthController::class, 'login'])->name('admin.login');
+Route::prefix('admin')->name('admin.')->middleware('auth:admin')->group(function () {
+
+    Route::post('admin/logout', [App\Http\Controllers\Adminpanel\AuthController::class, 'logout'])->name('logout');
+
+    //dashboard
+    Route::controller(App\Http\Controllers\Adminpanel\DashboardController::class)->name('dashboard')->group(function () {
+        Route::get('/', 'index');
+    });
+
+
+    //blog
+    Route::controller(App\Http\Controllers\Adminpanel\BlogController::class)->prefix('blogs')->name('blog.')->group(function () {
+        Route::get('/', 'index')->name('index');
+        Route::get('/create', 'create')->name('create');
+        Route::post('/', 'store')->name('store');
+        Route::get('/{blog}', 'show')->name('show');
+        Route::get('/{blog}/edit', 'edit')->name('edit');
+        Route::put('/{blog}', 'update')->name('update');
+        Route::delete('/{blog:id}', 'destroy')->name('destroy');
+    });
+
+    //blog-category
+    Route::controller(App\Http\Controllers\Adminpanel\BlogCategoryController::class)->prefix('blogs-category')->name('blog-category.')->group(function () {
+        Route::get('/', 'index')->name('index');
+        Route::get('/create', 'create')->name('create');
+        Route::post('/', 'store')->name('store');
+        Route::get('/{blogCategory}', 'show')->name('show');
+        Route::get('/{blogCategory}/edit', 'edit')->name('edit');
+        Route::put('/{id}', 'update')->name('update');
+        Route::delete('/{blogCategory:id}', 'destroy')->name('destroy');
+    });
+});
+
+

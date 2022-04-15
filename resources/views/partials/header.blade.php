@@ -123,7 +123,7 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="{{route('article')}}" class="nav-link">
+                                        <a href="{{route('blog.index')}}" class="nav-link">
                                             Article
                                         </a>
                                     </li>
