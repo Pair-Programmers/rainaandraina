@@ -124,7 +124,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-5">
                     <div class="about-image">
-                        <img src="assets/img/about.png" alt="Image">
+                        <img src="{{asset('assets')}}/img/about.png" alt="Image">
                     </div>
                 </div>
 
@@ -205,7 +205,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="service-details.html">
-                            <img src="assets/img/services/TAX_AUDITS__APPEALS_1_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/TAX_AUDITS__APPEALS_1_575x400.jpg" alt="Image">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-city"></i> -->
@@ -218,7 +218,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="service-details.html">
-                            <img src="assets/img/services/Corporate_and_Commercial_2_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/Corporate_and_Commercial_2_575x400.jpg" alt="Image">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-users"></i> -->
@@ -231,7 +231,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="service-details.html">
-                            <img src="assets/img/services/INTERNATIONAL_LAW_1_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/INTERNATIONAL_LAW_1_575x400.jpg" alt="Image">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-user"></i> -->
@@ -244,7 +244,7 @@
                 <!-- <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="service-details.html">
-                            <img src="assets/img/services/service4.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/service4.jpg" alt="Image">
                         </a>
                         <div class="service-text">
                             <i class="las la-broadcast-tower"></i>
@@ -257,7 +257,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="service-details.html">
-                            <img src="assets/img/services/service5.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/service5.jpg" alt="Image">
                         </a>
                         <div class="service-text">
                             <i class="las la-balance-scale"></i>
@@ -270,7 +270,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="service-details.html">
-                            <img src="assets/img/services/service6.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/service6.jpg" alt="Image">
                         </a>
                         <div class="service-text">
                             <i class="las la-balance-scale-right"></i>
@@ -282,7 +282,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="service-details.html">
-                            <img src="assets/img/services/service6.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/service6.jpg" alt="Image">
                         </a>
                         <div class="service-text">
                             <i class="las la-balance-scale-right"></i>
@@ -294,7 +294,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="service-details.html">
-                            <img src="assets/img/services/service6.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/service6.jpg" alt="Image">
                         </a>
                         <div class="service-text">
                             <i class="las la-balance-scale-right"></i>
@@ -306,7 +306,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="service-details.html">
-                            <img src="assets/img/services/service6.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/service6.jpg" alt="Image">
                         </a>
                         <div class="service-text">
                             <i class="las la-balance-scale-right"></i>
@@ -318,7 +318,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="service-details.html">
-                            <img src="assets/img/services/service6.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/service6.jpg" alt="Image">
                         </a>
                         <div class="service-text">
                             <i class="las la-balance-scale-right"></i>
@@ -330,7 +330,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="service-details.html">
-                            <img src="assets/img/services/service6.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/service6.jpg" alt="Image">
                         </a>
                         <div class="service-text">
                             <i class="las la-balance-scale-right"></i>
@@ -403,8 +403,8 @@
     <div class="fun-facts-area pb-70">
         <div class="container">
             <div class="fun-facts-shape top">
-                <img src="assets/img/shape.png" class="shape1" alt="Shape">
-                <img src="assets/img/shape.png" class="shape2" alt="Shape">
+                <img src="{{asset('assets')}}/img/shape.png" class="shape1" alt="Shape">
+                <img src="{{asset('assets')}}/img/shape.png" class="shape2" alt="Shape">
             </div>
 
             <div class="row">
@@ -442,8 +442,8 @@
             </div>
 
             <div class="fun-facts-shape bottom">
-                <img src="assets/img/shape.png" class="shape1" alt="Shape">
-                <img src="assets/img/shape.png" class="shape2" alt="Shape">
+                <img src="{{asset('assets')}}/img/shape.png" class="shape1" alt="Shape">
+                <img src="{{asset('assets')}}/img/shape.png" class="shape2" alt="Shape">
             </div>
         </div>
     </div>
@@ -460,7 +460,7 @@
             <div class="testimonials-slider owl-carousel owl-theme">
                 <div class="testimonials-slider-item">
                     <div class="testimonials-img">
-                        <img src="assets/img/case-study/case-study1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/case-study/case-study1.jpg" alt="Image">
                     </div>
                     <div class="img-text">
                         <h3>Real Estate Issue</h3>
@@ -474,7 +474,7 @@
 
                 <div class="testimonials-slider-item">
                     <div class="testimonials-img">
-                        <img src="assets/img/case-study/case-study2.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/case-study/case-study2.jpg" alt="Image">
                     </div>
                     <div class="img-text">
                         <h3>Money Loundering</h3>
@@ -488,7 +488,7 @@
 
                 <div class="testimonials-slider-item">
                     <div class="testimonials-img">
-                        <img src="assets/img/case-study/case-study3.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/case-study/case-study3.jpg" alt="Image">
                     </div>
                     <div class="img-text">
                         <h3>Critical Murder Case</h3>
@@ -510,8 +510,8 @@
             <div class="row">
                 <div class="col-lg-5 right-way">
                     <div class="fun-facts-shape top">
-                        <img src="assets/img/shape.png" class="shape1" alt="Shape">
-                        <img src="assets/img/shape.png" class="shape2" alt="Shape">
+                        <img src="{{asset('assets')}}/img/shape.png" class="shape1" alt="Shape">
+                        <img src="{{asset('assets')}}/img/shape.png" class="shape2" alt="Shape">
                     </div>
 
                     <div class="right-way-text">
@@ -523,7 +523,7 @@
                         </div>
 
                         <div class="text-sign">
-                            <!-- <img src="assets/img/sign.png" alt="Sign"> -->
+                            <!-- <img src="{{asset('assets')}}/img/sign.png" alt="Sign"> -->
                             <h3>Faisal Naseer Rana </h3>
                             <p>Senior Attorney & Founder of Raina & Raina</p>
                         </div>
@@ -656,21 +656,20 @@
             <div class="testimonials-slider owl-carousel owl-theme">
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/al-fateh1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/al-fateh1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>Al-Fateh</h3>
-                                <p></p>
                             </div>
                         </div>
                     </div>
 
-                    
+
                 </div>
 
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/Bombay-chopaty.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/Bombay-chopaty.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>M/s Bombay Chopaty</h3>
@@ -679,12 +678,12 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
 
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/digitalworld1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/digitalworld1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>Digital World</h3>
@@ -693,11 +692,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/haier1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/haier1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>M/s Haier Pakistan (Pvt.) Limited</h3>
@@ -706,11 +705,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/hunza-sugar-mill1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/hunza-sugar-mill1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>Hunza Sugar Mills</h3>
@@ -719,11 +718,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/jdw1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/jdw1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>Sugar Mills Ltd.</h3>
@@ -732,11 +731,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/KOHINOOR-Mills1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/KOHINOOR-Mills1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3> M/s KOHINOOR Mills</h3>
@@ -745,11 +744,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/Maple-Leaf-cement1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/Maple-Leaf-cement1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>M/s Maple Leaf Cement Factory Limited </h3>
@@ -758,11 +757,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/metaline1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/metaline1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>Metaline Industries (Pvt) Ltd. </h3>
@@ -771,11 +770,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/nestle1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/nestle1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>Nestle</h3>
@@ -784,11 +783,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/pak-arab- fertilizer1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/pak-arab- fertilizer1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>Pakarab FertilizerS LIMITED</h3>
@@ -797,11 +796,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/patoki1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/patoki1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>PATOKI SUGAR MILLS LIMITED</h3>
@@ -810,11 +809,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/rina1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/rina1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>Rina's KITCHENETTE</h3>
@@ -823,11 +822,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/shakarganj1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/shakarganj1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>shakarganj Food Products </h3>
@@ -836,11 +835,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/glorea-jeans.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/glorea-jeans.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>Glorea Jeans </h3>
@@ -849,11 +848,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/standard-brand1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/standard-brand1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>Standard Brand </h3>
@@ -862,11 +861,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
                 <!-- <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/testimonials1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>M/s Ittehad Sugar Mills (Pvt.) Ltd.   </h3>
@@ -875,11 +874,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div> -->
                 <!-- <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/testimonials1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>M/s Bullahy Shah Dying    </h3>
@@ -888,11 +887,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div> -->
                 <!-- <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/testimonials1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>M/s Al-Rehman Foods    </h3>
@@ -901,11 +900,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div> -->
                 <!-- <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/testimonials1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>M/s Kardan International (Pvt.) Ltd.     </h3>
@@ -914,11 +913,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div> -->
                 <!-- <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/testimonials1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>M/s Bombay Chowpatty     </h3>
@@ -927,11 +926,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div> -->
                 <!-- <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/testimonials1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>M/s Power Solutions     </h3>
@@ -940,11 +939,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div> -->
                 <!-- <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/testimonials1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>M/s Standard Brands (Pvt.) Ltd.      </h3>
@@ -953,11 +952,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div> -->
                 <!-- <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/testimonials1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>M/s Five Star Petroleum (Pvt.) Ltd.       </h3>
@@ -966,11 +965,11 @@
                         </div>
                     </div>
 
-                    
+
                 </div> -->
                 <!-- <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="assets/img/testimonials/testimonials1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
                                 <h3>M/s The Limited Group of Colleges (Pvt.) Ltd.        </h3>
@@ -979,7 +978,7 @@
                         </div>
                     </div>
 
-                    
+
                 </div> -->
 
             </div>
@@ -1000,7 +999,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="attorney-card">
                         <a href="attorney-details.html">
-                            <img src="assets/img/attorney/faisal.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/attorney/faisal.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="attorney-details.html">Faisal Naseer Rana</a></h3>
@@ -1013,7 +1012,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="attorney-card">
                         <a href="attorney-details.html">
-                            <img src="assets/img/attorney/yasir.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/attorney/yasir.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="attorney-details.html">Yasir Naseer Rana</a></h3>
@@ -1026,7 +1025,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="attorney-card">
                         <a href="attorney-details.html">
-                            <img src="assets/img/attorney/attorney1.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/attorney/attorney1.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="attorney-details.html">Azeem Danyal</a></h3>
@@ -1053,27 +1052,27 @@
             <div class="partner-slider owl-carousel owl-theme">
                 <div class="partner-slider-item">
                     <a href="#">
-                        <img src="assets/img/partner/partner1.png" alt="logo">
+                        <img src="{{asset('assets')}}/img/partner/partner1.png" alt="logo">
                     </a>
                 </div>
                 <div class="partner-slider-item">
                     <a href="#">
-                        <img src="assets/img/partner/partner2.png" alt="logo">
+                        <img src="{{asset('assets')}}/img/partner/partner2.png" alt="logo">
                     </a>
                 </div>
                 <div class="partner-slider-item">
                     <a href="#">
-                        <img src="assets/img/partner/partner3.png" alt="logo">
+                        <img src="{{asset('assets')}}/img/partner/partner3.png" alt="logo">
                     </a>
                 </div>
                 <div class="partner-slider-item">
                     <a href="#">
-                        <img src="assets/img/partner/partner4.png" alt="logo">
+                        <img src="{{asset('assets')}}/img/partner/partner4.png" alt="logo">
                     </a>
                 </div>
                 <div class="partner-slider-item">
                     <a href="#">
-                        <img src="assets/img/partner/partner5.png" alt="logo">
+                        <img src="{{asset('assets')}}/img/partner/partner5.png" alt="logo">
                     </a>
                 </div>
             </div>
@@ -1090,86 +1089,36 @@
             </div>
 
             <div class="row">
+                @foreach ($blogs as $blog)
                 <div class="col-lg-4 col-sm-6">
                     <div class="blog-card">
-                        <a href="{{route('article.blues-of-trust')}}">
+                        <a href="{{route('blog.show', $blog)}}">
                             <img src="{{asset('assets')}}/img/news&blog/article1-express.jpg" alt="Image">
                         </a>
                         <div class="blog-card-text">
-                            <h3><a href="{{route('article.blues-of-trust')}}">Blues of Trust for Higher Tax Revenues in the Dwarf Countries</a></h3>
+                            <h3><a href="{{route('blog.show', $blog)}}">{{$blog->title}}</a></h3>
                             <ul>
                                 <li>
                                     <i class="las la-calendar"></i>
-                                    16 March 2022
+                                    {{ date('d-M-Y', strtotime($blog->created_at)) }}
                                 </li>
                                 <li>
                                     <i class="las la-user-alt"></i>
-                                   MS Zunaira Khan
+                                    {{$blog->author_name}}
                                 </li>
                             </ul>
 
-                            <p>The outbreak of the Global Pandemic has unveiled the existing traditional mores in the institutional framework of developing countries. In many Dwarf countries, the tax collection system has remained in the grey zones despite several efforts</p>
+                            <p>{{$blog->summary}}</p>
 
-                            <a href="{{route('article.blues-of-trust')}}" class="read-more">
+                            <a href="{{route('blog.show', $blog)}}" class="read-more">
                                 Read More <i class="las la-angle-double-right"></i>
                             </a>
                         </div>
                     </div>
                 </div>
+                @endforeach
 
-                <div class="col-lg-4 col-sm-6">
-                    <div class="blog-card">
-                        <a href="{{route('article.birth-of-world')}}">
-                            <img src="{{asset('assets')}}/img/news&blog/article2-express.jpg" alt="Image">
-                        </a>
-                        <div class="blog-card-text">
-                            <h3><a href="{{route('article.birth-of-world')}}">Birth of World Order 2.0</a></h3>
-                            <ul>
-                                <li>
-                                    <i class="las la-calendar"></i>
-                                    16 March 2022
-                                </li>
-                                <li>
-                                    <i class="las la-user-alt"></i>
-                                    MS Zunaira Khan
-                                </li>
-                            </ul>
 
-                            <p>While geo-economy and geo-strategy have been dictating the world affairs for last few decades, “geo-politics” has taken over global stage by transforming the previous trends. International relations are witnessing preferable geo-political considerations, based on prior national interests as directed by classical </p>
-
-                            <a href="{{route('article.birth-of-world')}}" class="read-more">
-                                Read More <i class="las la-angle-double-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                    <div class="blog-card">
-                        <a href="{{route('article.pak-china')}}">
-                            <img src="{{asset('assets')}}/img/news&blog/article3-express.jpg" alt="Image">
-                        </a>
-                        <div class="blog-card-text">
-                            <h3><a href="{{route('article.pak-china')}}">Pak-China Civil Nuclear Cooperation; New Narrative of Peaceful Co-existence </a></h3>
-                            <ul>
-                                <li>
-                                    <i class="las la-calendar"></i>
-                                    16 March 2022
-                                </li>
-                                <li>
-                                    <i class="las la-user-alt"></i>
-                                    MS Zunaira Khan
-                                </li>
-                            </ul>
-
-                            <p>The song of Pak-China Friendship is being heard in the halls of energy sector in recent times. While the year 2021 was coughing its last, Pakistan and China have entered into a new phase of bilateral ties. The Pakistan  </p>
-
-                            <a href="{{route('article.pak-china')}}" class="read-more">
-                                Read More <i class="las la-angle-double-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
 
             </div>

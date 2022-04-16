@@ -12,7 +12,7 @@
             <div class="col-lg-5 col-sm-6">
                 <div class="footer-widget">
                     <div class="logo">
-                        <img src="assets/img/white-logo.png" alt="logo" style="width: 100px; height: 100px;">
+                        <img src="{{asset('assets')}}/img/white-logo.png" alt="logo" style="width: 100px; height: 100px;">
                     </div>
                     <p>Raina & Raina founded in 2009, is one of the distinctive law firm providing superior legal services to domestic and international clients in broad array of areas enlisted in the succeeding pages. Our law firm is an enterprise of outstanding capabilities, unmatched enthusiasms, keen intellects, unyielding integrity and an extraordinary desire to understand and serve the clients.
 </p>

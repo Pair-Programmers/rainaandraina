@@ -21,7 +21,7 @@ class BlogController extends Controller
             $query->where('blog_category_id', $category->id);
             // dd($category);
         })
-        ->paginate(10);
+        ->paginate(9);
         $categories = BlogCategory::all();
         $recentBlogs = Blog::orderBy('id', 'desc')->get()->take(3);
         return view('pages.articles.index', compact('blogs', 'categories', 'recentBlogs'));

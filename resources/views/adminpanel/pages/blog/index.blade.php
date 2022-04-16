@@ -92,7 +92,7 @@
                                                 </td>
                                                 <td class="text-center">
                                                     <div class="btn-group">
-                                                        <a href="{{ route('admin.blog.show', $blog) }}"
+                                                        <a target="_blank" href="{{ route('blog.show', $blog) }}"
                                                             class="btn-white btn btn-xs">View</a>
                                                         <a href="{{ route('admin.blog.edit', $blog) }}"
                                                             class="btn-white btn btn-xs">Edit</a>

@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages/index');
-})->name('home');
+Route::get('/', [App\Http\Controllers\WelcomeController::class, 'index'])->name('home');
+Route::get('/contact-us', [App\Http\Controllers\ContactUsController::class, 'create'])->name('contact-us');
+Route::get('/contact-us/store', [App\Http\Controllers\ContactUsController::class, 'store'])->name('contact-us.store');
 
 Route::get('/about', function () {
     return view('pages/about');
@@ -25,9 +25,7 @@ Route::get('/attorney', function () {
     return view('pages/attorney');
 })->name('attorney');
 
-Route::get('/contact', function () {
-    return view('pages/contact');
-})->name('contact-us');
+
 
 Route::get('/practice-areas', function () {
     return view('pages/services');
@@ -41,9 +39,9 @@ Route::get('/gallery.', function () {
     return view('pages/gallery');
 })->name('gallery');
 
-Route::get('/article', function () {
-    return view('pages/article');
-})->name('article');
+// Route::get('/article', function () {
+//     return view('pages/article');
+// })->name('article');
 
 
 
@@ -122,7 +120,7 @@ Route::get('/tax-audit', function () {
     return view('pages/practice_area/tax-audit');
 })->name('practice-area.tax-audit');
 
-Route::get('/articleddd/{category?}', [App\Http\Controllers\BlogController::class, 'index'])->name('blog.index');
+Route::get('/articles/{category?}', [App\Http\Controllers\BlogController::class, 'index'])->name('blog.index');
 Route::get('/article/{blog}', [App\Http\Controllers\BlogController::class, 'show'])->name('blog.show');
 
 

@@ -75,7 +75,7 @@
                     <div class="container">
                         <nav class="navbar navbar-expand-md navbar-light">
                             <a class="navbar-brand" href="{{route('home')}}">
-                                <img src="assets/img/landscape Orignal Logo.svg" alt="logo" style="width: 100%; height: 70px;">
+                                <img src="{{asset('assets')}}/img/landscape-orignal-logo.svg" alt="logo" style="width: 100%; height: 70px;">
                             </a>
 
                             <div class="collapse navbar-collapse mean-menu">

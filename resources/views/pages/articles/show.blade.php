@@ -37,7 +37,7 @@
                             <img src="{{asset('storage')}}/images/blogs/{{$blog->image}}" alt="{{$blog->image}}">
                         </div>
                         <div class="services-details-content">
-                            <h3>{{$blog->title}}</h3>
+                            <h4>{{$blog->title}}</h4>
                             <ul class="blog-list">
                                 <li>
                                     <i class="las la-calendar"></i>
@@ -48,12 +48,10 @@
                                     <a href="#">{{$blog->author_name}}</a>
                                 </li>
                             </ul>
-                            <div>
-                                {{$blog->description}}
-                            </div>
+                            {!!$blog->description!!}
 
                         </div>
-                        
+
                         <!-- <div class="comments-area">
                                     <h3 class="comments-title">2 Comments:</h3>
 
@@ -230,75 +228,34 @@
 
                         <div class="side-bar-box recent-post">
                             <h3 class="title">Recent Post</h3>
+                            @foreach ($recentBlogs as $blog)
                             <div class="single-recent-post">
                                 <div class="recent-post-img">
-                                    <a href="#"><img src="assets/img/news&blog/blog1.jpg" alt="Image"></a>
+                                    <a href="{{route('blog.show', $blog)}}"><img src="{{asset('storage')}}/images/blogs/thumbnail/{{$blog->thumbnail}}" alt="{{$blog->thumbnail}}"></a>
                                 </div>
                                 <div class="recent-post-content">
                                     <ul>
-                                        <li><a href="#">By Admin</a></li>
-                                        <li><a href="#"><i class="fa fa-calendar"></i> Jan 8, 2018</a></li>
+                                        <li>{{$blog->author_name}}</li>
+                                        <li><i class="fa fa-calendar"></i>{{ date('d-M-Y', strtotime($blog->created_at)) }}</li>
                                     </ul>
-                                    <h3><a href="#">Employment tribunal hears cases against National</a></h3>
+                                    <h3><a href="{{route('blog.show', $blog)}}">{{$blog->title}}</a></h3>
                                 </div>
                             </div>
+                            @endforeach
 
-                            <div class="single-recent-post">
-                                <div class="recent-post-img">
-                                    <a href="#"><img src="assets/img/news&blog/blog3.jpg" alt="Image"></a>
-                                </div>
-                                <div class="recent-post-content">
-                                    <ul>
-                                        <li><a href="#">By Admin</a></li>
-                                        <li><a href="#"><i class="fa fa-calendar"></i> Jan 8, 2018</a></li>
-                                    </ul>
-                                    <h3><a href="#">Employment tribunal hears cases against National</a></h3>
-                                </div>
-                            </div>
 
-                            <div class="single-recent-post mb-0">
-                                <div class="recent-post-img">
-                                    <a href="#"><img src="assets/img/news&blog/blog5.jpg" alt="Image"></a>
-                                </div>
-                                <div class="recent-post-content">
-                                    <ul>
-                                        <li><a href="#">By Admin</a></li>
-                                        <li><a href="#"><i class="fa fa-calendar"></i> Jan 8, 2018</a></li>
-                                    </ul>
-                                    <h3><a href="#">Employment tribunal hears cases against National</a></h3>
-                                </div>
-                            </div>
                         </div>
 
                         <div class="side-bar-box categories-box">
                             <h3 class="title">Categories</h3>
                             <ul>
-                                <li><a href="#"><i class="las la-angle-double-right"></i></i> News (10)</a></li>
-                                <li><a href="#"><i class="las la-angle-double-right"></i></i> Legal News (15)</a></li>
-                                <li><a href="#"><i class="las la-angle-double-right"></i></i> Events (09)</a></li>
-                                <li><a href="#"><i class="las la-angle-double-right"></i></i> Resources (19)</a></li>
-                                <li><a href="#"><i class="las la-angle-double-right"></i></i> Illegal News (13)</a></li>
-                                <li><a href="#"><i class="las la-angle-double-right"></i></i> Legal Alerts (16)</a></li>
-                                <li><a href="#"><i class="las la-angle-double-right"></i></i> Investigations (05)</a></li>
+                                @foreach ($categories as $category)
+                                    <li><a href="{{ route('blog.index', $category) }}"><i class="las la-angle-double-right"></i></i>{{ $category->name }}</a></li>
+                                @endforeach
                             </ul>
                         </div>
 
-                        <div class="side-bar-box tags-box">
-                            <h3 class="title">Tags</h3>
-                            <ul>
-                                <li><a href="#">Resources</a></li>
-                                <li><a href="#">Law</a></li>
-                                <li><a href="#">Events</a></li>
-                                <li><a href="#">Illegal</a></li>
-                                <li><a href="#">Criminal</a></li>
-                                <li><a href="#">Family</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Legal</a></li>
-                                <li><a href="#">Civil</a></li>
-                                <li><a href="#">Divorce</a></li>
-                                <li><a href="#">Investment</a></li>
-                            </ul>
-                        </div>
+
                     </div>
                 </div>
             </div>

@@ -74,6 +74,14 @@
                                                 </div>
                                             </div>
 
+                                            <div class="form-group @error('summary') has-error @enderror"><label class="col-sm-2 control-label">Summary:</label>
+                                                <div class="col-sm-10"><input id="" value="{{old('summary')}}" name="summary" required type="text" placeholder="short summary .." class="form-control" >
+                                                    @error('summary')
+                                                        <span class="help-block m-b-none">{{$message}}</span>
+                                                    @enderror
+                                                </div>
+                                            </div>
+
                                             <div class="form-group"><label class="col-sm-2 control-label">Description:</label>
                                                 <div class="col-sm-10">
                                                     <textarea id="" name="description" type="text" required class="summernote">
@@ -120,10 +128,10 @@
                                                 <label class="col-sm-2 control-label">jpeg, jpg, png</label>
 
                                             </div>
-                                            <div class="form-group"><label class="col-sm-2 control-label">Thumbnail Image (350x236):</label>
+                                            <div class="form-group"><label class="col-sm-2 control-label">Thumbnail Image (624x325):</label>
                                                 <div class="col-sm-10"><input name="thumbnail" accept=".png, .jpg, jpeg." type="file" class="form-control" placeholder="jpeg, jpg, png ..."></div>
                                             </div>
-                                            <div class="form-group"><label class="col-sm-2 control-label">Full Image (750x440):</label>
+                                            <div class="form-group"><label class="col-sm-2 control-label">Full Image (500x400):</label>
                                                 <div class="col-sm-10"><input name="image" accept=".png, .jpg, jpeg." type="file" class="form-control" placeholder="jpeg, jpg, png ..."></div>
                                             </div>
 

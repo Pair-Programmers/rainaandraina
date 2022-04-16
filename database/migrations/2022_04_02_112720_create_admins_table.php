@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('phone')->nullable();
             $table->string('role');
             $table->string('status')->default('Active');
-            $table->string('profile_image')->default('profile_image_icon.png');
+            $table->string('profile_image')->default('profile_image_icon.jpg');
             $table->string('password');
             $table->softDeletes();
             $table->timestamps();
