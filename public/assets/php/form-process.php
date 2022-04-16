@@ -44,7 +44,7 @@ $fromEmail = "no-reply@rainaandraina.com";
 
 $Subject = "New Message Received";
 
-$headers = "From: ContactUs: ".$userName." <".$fromEmail.">" . "\r\n"
+$headers = "From: ContactUs: ".$name." <".$fromEmail.">" . "\r\n"
                 . "CC: hamza.devhouse.7262@outlook.com";
 // prepare email body text
 $Body = "";
