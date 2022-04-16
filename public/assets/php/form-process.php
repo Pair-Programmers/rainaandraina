@@ -40,12 +40,9 @@ if (empty($_POST["message"])) {
 
 
 $EmailTo = "mianhamza7262@gmail.com";
-$fromEmail = "no-reply@rainaandraina.com";
 
 $Subject = "New Message Received";
 
-$headers = "From: ContactUs: ".$name." <".$fromEmail.">" . "\r\n"
-                . "CC: hamza.devhouse.7262@outlook.com";
 // prepare email body text
 $Body = "";
 $Body .= "Name: ";
@@ -65,7 +62,7 @@ $Body .= $message;
 $Body .= "\n";
 
 // send email
-$success = mail($EmailTo, $Subject, $Body, $headers);
+$success = mail($EmailTo, $Subject, $Body);
 
 // redirect to success page
 if ($success && $errorMSG == ""){
