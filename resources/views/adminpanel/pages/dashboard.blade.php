@@ -1,7 +1,7 @@
 @extends('adminpanel.layouts.master')
 
 @section('title-meta')
-    <title>{{ env('APP_NAME', 'Admin') }} | Product Create</title>
+    <title>Raina & raina |  Dashboard</title>
 
     <meta name="description" content="this is description">
 @endsection

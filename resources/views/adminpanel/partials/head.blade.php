@@ -6,7 +6,6 @@
 
     @yield('title-meta')
 
-    <title>INSPINIA | Dashboard</title>
 
     <link href="{{ asset('assets/adminpanel') }}/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ asset('assets/adminpanel') }}/font-awesome/css/font-awesome.css" rel="stylesheet">
