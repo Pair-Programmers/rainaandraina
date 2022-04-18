@@ -35,7 +35,7 @@
                 <div class="col-lg-8 col-md-7 col-sm-12">
                     <div class="services-details">
                         <div class="img">
-                            <img src="../assets/img/services/service-datials.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/TAX_AUDITS__APPEALS_1_575x400.jpg" alt="TAX_AUDITS__APPEALS_1_575x400.jpg">
                         </div>
                         <div class="services-details-content">
                             <h3>TAX AUDITS & APPEALS</h3>
@@ -81,7 +81,7 @@
                                             </p>
                                         </li>
 
-                                        
+
                                     </ul>
                                 </div>
                             </div>

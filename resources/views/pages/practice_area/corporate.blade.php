@@ -35,7 +35,7 @@
                 <div class="col-lg-8 col-md-7 col-sm-12">
                     <div class="services-details">
                         <div class="img">
-                            <img src="../assets/img/services/service-datials.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/Corporate_and_Commercial_2_575x400.jpg" alt="Corporate_and_Commercial_2_575x400.jpg">
                         </div>
                         <div class="services-details-content">
                             <h3>Corporate and Commercial</h3>

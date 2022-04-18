@@ -35,7 +35,7 @@
                 <div class="col-lg-8 col-md-7 col-sm-12">
                     <div class="services-details">
                         <div class="img">
-                            <img src="../assets/img/services/service-datials.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/CLINICAL_NEGLIGENCE_2_575x400.jpg" alt="CLINICAL_NEGLIGENCE_2_575x400.jpg">
                         </div>
                         <div class="services-details-content">
                             <h3>CLINICAL NEGLIGENCE AND PERSONAL INJURY </h3>
@@ -52,7 +52,7 @@
 
                             <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> -->
 
-                            
+
                         </div>
                     </div>
                 </div>

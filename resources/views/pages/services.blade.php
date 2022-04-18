@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title-meta')
-<title>Services | Raina & Raina - Law & Attorney Firm</title>
+<title>Practice Areas | Raina & Raina - Law & Attorney Firm</title>
 <meta name="description" content="We are distinctive law firm providing superior legal services to domestic and international clients in broad array of areas enlisted in the succeeding pages. Our law firm is an enterprise of outstanding capabilities, unmatched enthusiasms, keen intellects, unyielding integrity and an extraordinary desire to understand and serve the clients.">
 <meta name="keywords" content="advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">
 @endsection
@@ -42,7 +42,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{route('practice-area.tax-audit')}}">
-                            <img src="assets/img/services/TAX_AUDITS__APPEALS_1_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/TAX_AUDITS__APPEALS_1_575x400.jpg" alt="TAX_AUDITS__APPEALS_1_575x400.jpg">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-city"></i> -->
@@ -57,7 +57,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{route('practice-area.corporate')}}">
-                            <img src="assets/img/services/Corporate_and_Commercial_2_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/Corporate_and_Commercial_2_575x400.jpg" alt="Corporate_and_Commercial_2_575x400.jpg">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-users"></i> -->
@@ -72,7 +72,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{route('practice-area.multi-Jurisdictional')}}">
-                            <img src="assets/img/services/Multi-Jurisdictional_Trade_Consultancy_1_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/Multi-Jurisdictional_Trade_Consultancy_1_575x400.jpg" alt="Multi-Jurisdictional_Trade_Consultancy_1_575x400.jpg">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-user"></i> -->
@@ -87,7 +87,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{route('practice-area.foreign')}}">
-                            <img src="assets/img/services/Foreign_legal_opinion_1_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/Foreign_legal_opinion_1_575x400.jpg" alt="Foreign_legal_opinion_1_575x400.jpg">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-user"></i> -->
@@ -102,7 +102,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{route('practice-area.alternate-dispute')}}">
-                            <img src="assets/img/services/ALTERNATE_DISPUTE_RESOLUTION_1_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/ALTERNATE_DISPUTE_RESOLUTION_1_575x400.jpg" alt="ALTERNATE_DISPUTE_RESOLUTION_1_575x400.jpg">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-broadcast-tower"></i> -->
@@ -116,7 +116,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{route('practice-area.legislative-drafting')}}">
-                            <img src="assets/img/services/Legislative_Drafting_1_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/Legislative_Drafting_1_575x400.jpg" alt="Legislative_Drafting_1_575x400.jpg">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale"></i> -->
@@ -132,7 +132,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{route('practice-area.clinical')}}">
-                            <img src="assets/img/services/CLINICAL_NEGLIGENCE_2_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/CLINICAL_NEGLIGENCE_2_575x400.jpg" alt="CLINICAL_NEGLIGENCE_2_575x400.jpg">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
@@ -147,7 +147,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{route('practice-area.prof-negligence')}}">
-                            <img src="assets/img/services/Professional_negligence_1_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/Professional_negligence_1_575x400.jpg" alt="Professional_negligence_1_575x400.jpg">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
@@ -162,7 +162,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{route('practice-area.criminal')}}">
-                            <img src="assets/img/services/CRIMINAL_LAW_AND_APPEALS_1_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/CRIMINAL_LAW_AND_APPEALS_1_575x400.jpg" alt="CRIMINAL_LAW_AND_APPEALS_1_575x400.jpg">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
@@ -176,7 +176,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{route('practice-area.civil')}}">
-                            <img src="assets/img/services/civil_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/civil_575x400.jpg" alt="civil_575x400.jpg">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
@@ -190,7 +190,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{route('practice-area.media-law')}}">
-                            <img src="assets/img/services/MEDIA_LAW_AND_INFORMATION_LAW_1_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/MEDIA_LAW_AND_INFORMATION_LAW_1_575x400.jpg" alt="MEDIA_LAW_AND_INFORMATION_LAW_1_575x400.jpg">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
@@ -203,7 +203,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{route('practice-area.immigration')}}">
-                            <img src="assets/img/services/service6.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/service6.jpg" alt="service6.jpg">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
@@ -218,7 +218,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{route('practice-area.international')}}">
-                            <img src="assets/img/services/INTERNATIONAL_LAW_1_575x400.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/services/INTERNATIONAL_LAW_1_575x400.jpg" alt="INTERNATIONAL_LAW_1_575x400.jpg">
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
