@@ -1093,7 +1093,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="blog-card">
                         <a href="{{route('blog.show', $blog)}}">
-                            <img src="{{asset('assets')}}/img/news&blog/article1-express.jpg" alt="Image">
+                            <img src="{{asset('storage')}}/images/blogs/thumbnail/{{$blog->thumbnail}}" alt="Image">
                         </a>
                         <div class="blog-card-text">
                             <h3><a href="{{route('blog.show', $blog)}}">{{$blog->title}}</a></h3>
