@@ -1,8 +1,9 @@
 @extends('layouts.master')
 
 @section('title-meta')
-    <title>{{ env('APP_NAME', 'Admin') }} | Product Create</title>
-    <meta name="description" content="this is description">
+<title>Clients | Raina & Raina - Law & Attorney Firm</title>
+<meta name="description" content="We are distinctive law firm providing superior legal services to domestic and international clients in broad array of areas enlisted in the succeeding pages. Our law firm is an enterprise of outstanding capabilities, unmatched enthusiasms, keen intellects, unyielding integrity and an extraordinary desire to understand and serve the clients.">
+<meta name="keywords" content="advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">
 @endsection
 
 @section('custom-css')
