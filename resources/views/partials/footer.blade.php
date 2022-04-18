@@ -74,9 +74,9 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{route('home')}}">
+                            <a href="{{route('blog.index')}}">
                                 <i class="las la-star"></i>
-                                Blog
+                                Artticle
                             </a>
                         </li>
                         <li>
