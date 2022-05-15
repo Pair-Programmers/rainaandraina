@@ -1,10 +1,9 @@
 @extends('layouts.master')
 
 @section('title-meta')
-<title>Legislative Drafting - Practice Area | Raina & Raina</title>
-<meta name="description" content="The firm has advised the Federal and Provincial Governments as well as the industry on the
-drafting of primary and secondary/subsidiary legislative proposals and measures.">
-<meta name="keywords" content="Raina, Practice Area, Legislative, Drafting, Legislative Drafting,  advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">
+<title>Registration of Foreign Companies - Practice Area | Raina & Raina</title>
+<meta name="description" content="Our law firm’s competence in Pakistan is also represented by legal advice and representation for clients in Pakistan for setting up a company. We also offer special attention to the transformations encountered in your company during its existence and also to the major changes in the structure and activity of your company.">
+<meta name="keywords" content="Raina, Practice Area, Registration, Foreign, Companies, advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">
 @endsection
 
 @section('custom-css')
@@ -36,25 +35,20 @@ drafting of primary and secondary/subsidiary legislative proposals and measures.
                 <div class="col-lg-8 col-md-7 col-sm-12">
                     <div class="services-details">
                         <div class="img">
-                            <img src="{{asset('assets')}}/img/services/Legislative_Drafting_1_575x400.jpg" alt="Legislative_Drafting_1_575x400.jpg">
+                            <img src="{{asset('assets')}}/img/services/Professional_negligence_1_575x400.jpg" alt="Professional_negligence_1_575x400.jpg">
                         </div>
                         <div class="services-details-content">
-                            <h3>Legislative Drafting</h3>
-                            <p>The firm has advised the Federal and Provincial Governments as well as the industry on the
-                                drafting of primary and secondary/subsidiary legislative proposals and measures</p>
-                            <p><b><i>The firm’s recent engagements include drafting of a provincial law pertaining to levy
-                                        of luxury Tax; a provincial law and sub-ordinate rules thereunder pertaining to
-                                        mining concessions; and, sub-ordinate rules under a federal statute pertaining to
-                                        mother and child health-care.</i></b></p>
-
-
-                            <!-- <blockquote class="blockquote">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                                    </blockquote> -->
-
-                            <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> -->
-
+                            <h3>Registration of Foreign Companies</h3>
+                            <p>Our law firm’s competence in Pakistan is also represented by legal advice and representation for clients in Pakistan for setting up a company. We also offer special attention to the transformations encountered in your company during its existence and also to the major changes in the structure and activity of your company.</p>
+                            <p>In Pakistan the incorporation of a legal entity consists of several steps and, when working with our law firm, the procedure should last approximately two weeks. We will guide and assist you in checking the name of company at the local chamber of industry and commerce, when notarizing the articles of association and memorandum of association, for opening a bank account and then registering the files, the articles of association with the local commercial register and sending a notification to the local office of business and standards. Once the company is established, we will help you register it with the professional association of the relevant trade, as well as register at the local labor office, registering the employees for health and social insurance and finally sending the relevant documentation to the Tax Office.</p>
+                            <p>An important decision when opening a company in Pakistan is selecting the type of business entity. Our team is here to help you make that choice, based on the available capital, the size of the future business and the business sector in which you wish to enter. The list below highlights the four of the most popular types of companies in Pakistan: </p>
+                            <ul>
+                                <li>	Sole Proprietorships </li>
+                                <li>	Un-Registered Partnerships</li>
+                                <li>	Limited Liability Partnership (LLP) registered from SECP</li>
+                                <li>	Limited Company or Limited Liability Company (PVT Ltd in Pakistan)</li>
+                            </ul>
+                            <p>By working with our law firm in Pakistan, you will benefit from expert assistance and representation in different proceedings such as company mergers. Our legal services in Pakistan target a comprehensive approach and diligence, aiming to solve any fiscal issue involved in the merger or division procedures.</p>
 
                         </div>
                     </div>
@@ -83,11 +77,11 @@ drafting of primary and secondary/subsidiary legislative proposals and measures.
                                         Opinion</a></li>
                                 <li><a href="alternate-dispute.html"><i class="las la-angle-double-right"></i></i>Alternate
                                         Dispute Resolution</a></li>
-
+                                <li><a href="legislative-drafting.html"><i
+                                            class="las la-angle-double-right"></i></i>Legislative Drafting</a></li>
                                 <li><a href="clinical.html"><i class="las la-angle-double-right"></i></i>clinical Negligence
                                         And Personal Injury</a></li>
-                                <li><a href="prof-negligence.html"><i class="las la-angle-double-right"></i></i>Professional
-                                        Negligence</a></li>
+
                                 <li><a href="criminal.html"><i class="las la-angle-double-right"></i></i>Criminal Law And
                                         Appeals</a></li>
                                 <li><a href="civil.html"><i class="las la-angle-double-right"></i></i>Civil Law And

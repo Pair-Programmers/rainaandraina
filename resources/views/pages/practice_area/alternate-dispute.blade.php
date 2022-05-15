@@ -1,9 +1,10 @@
 @extends('layouts.master')
 
 @section('title-meta')
-<title>Practice Area | Raina & Raina - ALTERNATE DISPUTE RESOLUTION</title>
-<meta name="description" content="We are distinctive law firm providing superior legal services to domestic and international clients in broad array of areas enlisted in the succeeding pages. Our law firm is an enterprise of outstanding capabilities, unmatched enthusiasms, keen intellects, unyielding integrity and an extraordinary desire to understand and serve the clients.">
-<meta name="keywords" content="advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">
+<title>ALTERNATE DISPUTE RESOLUTION - Practice Area | Raina & Raina</title>
+<meta name="description" content="Raina & Raina law firm houses several attorneys who are also experienced mediators, who offer
+an effective way of resolving disputes at domestic and international level.">
+<meta name="keywords" content="Raina, Practice Area,ALTERNATE DISPUTE RESOLUTION, advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">
 @endsection
 
 @section('custom-css')
@@ -18,8 +19,8 @@
                     <div class="page-content">
                         <h2>Practice Area Details</h2>
                         <ul>
-                            <li><a href="index.html">Home <i class="las la-angle-right"></i></a></li>
-                            <li>Services Details</li>
+                            <li><a href="{{route('home')}}">Home <i class="las la-angle-right"></i></a></li>
+                            <li>Practice Area Details</li>
                         </ul>
                     </div>
                 </div>

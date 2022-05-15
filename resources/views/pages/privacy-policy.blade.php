@@ -29,7 +29,7 @@
         <title>Raina & Raina - Law & Attorney Firm</title>
         <meta name="description" content="We are distinctive law firm providing superior legal services to domestic and international clients in broad array of areas enlisted in the succeeding pages. Our law firm is an enterprise of outstanding capabilities, unmatched enthusiasms, keen intellects, unyielding integrity and an extraordinary desire to understand and serve the clients.">
         <meta name="keywords" content="advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">
-    
+
     </head>
 
     <body>
@@ -82,7 +82,7 @@
                                         <i class="lab la-instagram"></i>
                                     </a>
                                 </li>
-                                
+
                                 <li class="heder-btn">
                                     <a href="contact.html">Get A Schedule</a>
                                 </li>
@@ -117,7 +117,7 @@
                                 <ul class="navbar-nav ms-auto">
                                     <li class="nav-item">
                                         <a href="index.html" class="nav-link ">
-                                            Home 
+                                            Home
                                         </a>
                                         <!-- <ul class="dropdown-menu">
                                             <li class="nav-item">
@@ -142,7 +142,7 @@
 
                                     <!-- <li class="nav-item">
                                         <a href="#" class="nav-link">
-                                            Pages 
+                                            Pages
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item">
@@ -172,7 +172,7 @@
                                                     <li class="nav-item">
                                                         <a href="sign-in.html" class="nav-link">Sign In</a>
                                                     </li>
-            
+
                                                     <li class="nav-item">
                                                         <a href="sign-up.html" class="nav-link">Sign Up</a>
                                                     </li>
@@ -182,11 +182,11 @@
                                             <li class="nav-item">
                                                 <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
                                             </li>
-            
+
                                             <li class="nav-item">
                                                 <a href="terms-condition.html" class="nav-link">Terms & Condition</a>
                                             </li>
-                                            
+
                                             <li class="nav-item">
                                                 <a href="coming-soon.html" class="nav-link">Coming Soon</a>
                                             </li>
@@ -213,7 +213,7 @@
 
                                     <li class="nav-item">
                                         <a href="case-study.html" class="nav-link">
-                                            Case Study  
+                                            Case Study
                                         </a>
                                         <!-- <ul class="dropdown-menu">
                                             <li class="nav-item">
@@ -228,7 +228,7 @@
 
                                     <li class="nav-item">
                                         <a href="attorney.html" class="nav-link">
-                                            Attorney 
+                                            Attorney
                                         </a>
                                         <!-- <ul class="dropdown-menu">
                                             <li class="nav-item">
@@ -243,7 +243,7 @@
 
                                     <li class="nav-item">
                                         <a href="blog.html" class="nav-link">
-                                            Blog 
+                                            Blog
                                         </a>
                                         <!-- <ul class="dropdown-menu">
                                             <li class="nav-item">
@@ -281,7 +281,7 @@
                     <div class="search-overlay-layer"></div>
                     <div class="search-overlay-layer"></div>
                     <div class="search-overlay-layer"></div>
-                    
+
                     <div class="search-overlay-close">
                         <span class="search-overlay-close-line"></span>
                         <span class="search-overlay-close-line"></span>
@@ -306,7 +306,7 @@
                         <div class="page-content">
                             <h2>Privacy Policy</h2>
                             <ul>
-                                <li><a href="index.html">Home <i class="las la-angle-right"></i></a></li>
+                                <li><a href="{{route('home')}}">Home <i class="las la-angle-right"></i></a></li>
                                 <li>Privacy Policy</li>
                             </ul>
                         </div>
@@ -322,7 +322,7 @@
                 <div class="privacy-policy-text">
                     <h2>We Are Top Lawyers With25 Years Of Experience</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
-           
+
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla</p>
 
                     <h2>We Are Providing Top Services With Excellent Performance</h2>
@@ -379,7 +379,7 @@
                     <div class="col-lg-2 col-sm-6">
                         <div class="footer-widget">
                             <h3>Quick Links</h3>
-                    
+
                             <ul class="footer-text">
                                 <li>
                                     <a href="index.html">
@@ -426,7 +426,7 @@
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-2 col-sm-6">
                         <div class="footer-widget pl-50">
                             <h3>Services</h3>

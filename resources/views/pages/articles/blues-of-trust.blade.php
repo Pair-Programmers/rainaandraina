@@ -17,7 +17,7 @@
                     <div class="page-content">
                         <h2>Article Details</h2>
                         <ul>
-                            <li><a href="index.html">Home <i class="las la-angle-right"></i></a></li>
+                            <li><a href="{{route('home')}}">Home <i class="las la-angle-right"></i></a></li>
                             <li>Articl Details</li>
                         </ul>
                     </div>

@@ -1,10 +1,9 @@
 @extends('layouts.master')
 
 @section('title-meta')
-<title>Legislative Drafting - Practice Area | Raina & Raina</title>
-<meta name="description" content="The firm has advised the Federal and Provincial Governments as well as the industry on the
-drafting of primary and secondary/subsidiary legislative proposals and measures.">
-<meta name="keywords" content="Raina, Practice Area, Legislative, Drafting, Legislative Drafting,  advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">
+<title>Property and Real Estate - Practice Area | Raina & Raina</title>
+<meta name="description" content="Raina & Raina is involved in providing services and assistance to our clients in buying and selling of both movable and immovable properties & real estate in Pakistan. We also provide our services to facilitate the required permissions, etc. for setting up various industries, factories, commercial complexes, industrial and residential estates, etc. across Pakistan.">
+<meta name="keywords" content="Raina, Practice Area, Property, Real Estate, advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">
 @endsection
 
 @section('custom-css')
@@ -36,17 +35,29 @@ drafting of primary and secondary/subsidiary legislative proposals and measures.
                 <div class="col-lg-8 col-md-7 col-sm-12">
                     <div class="services-details">
                         <div class="img">
-                            <img src="{{asset('assets')}}/img/services/Legislative_Drafting_1_575x400.jpg" alt="Legislative_Drafting_1_575x400.jpg">
+                            <img src="{{asset('assets')}}/img/services/property-and-real-estate.jpg" alt="Professional_negligence_1_575x400.jpg">
                         </div>
                         <div class="services-details-content">
-                            <h3>Legislative Drafting</h3>
-                            <p>The firm has advised the Federal and Provincial Governments as well as the industry on the
-                                drafting of primary and secondary/subsidiary legislative proposals and measures</p>
-                            <p><b><i>The firm’s recent engagements include drafting of a provincial law pertaining to levy
-                                        of luxury Tax; a provincial law and sub-ordinate rules thereunder pertaining to
-                                        mining concessions; and, sub-ordinate rules under a federal statute pertaining to
-                                        mother and child health-care.</i></b></p>
+                            <h3>Property and Real Estate</h3>
+                            <p>Raina & Raina is involved in providing services and assistance to our clients in buying and selling of both movable and immovable properties & real estate in Pakistan. We also provide our services to facilitate the required permissions, etc. for setting up various industries, factories, commercial complexes, industrial and residential estates, etc. across Pakistan.</p>
+                            <p>Raina & Raina offers a broad spectrum of services in property & real estate in Pakistan including following:</p>
+                            <ul>
 
+                            <li>	Investigate & verify title documents of the property </li>
+                            <li>	Investigate & verify mutation in favor of the vendor </li>
+                            <li>	Obtain a fresh copy of Fard from relevant sub-registrar </li>
+                            <li>	Obtain a certified copy of Aks-Shajra (map) </li>
+                            <li>	Obtain a certified copy of Tatima/Supplementary Map of the property </li>
+                            <li>	Demarcation details </li>
+                            <li>	Drafting of the documents </li>
+                            <li>	Registration of conveyance deed </li>
+                            <li>	Transfer of title </li>
+                            <li>	Entries in relevant government record </li>
+                            <li>	Obtain a NOC, if necessary </li>
+                            <li>	Verification of the Power of Attorney of the vendor, if any </li>
+                            <li>	Verification of other documents e.g. lease deeds, mortgage deeds, gift deeds etc., if any </li>
+
+                        </ul>
 
                             <!-- <blockquote class="blockquote">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -55,7 +66,35 @@ drafting of primary and secondary/subsidiary legislative proposals and measures.
 
                             <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> -->
 
+                            <div class="faq-area">
+                                <div class="faq-accordion">
+                                    <ul class="accordion">
+                                        <!-- <li class="accordion-item">
+                                                    <a class="accordion-title active" href="javascript:void(0)">
+                                                        <i class="las la-plus"></i>
+                                                        We offer a full range of alternative dispute resolution services including:
+                                                    </a>
 
+                                                    <p class="accordion-content show">
+                                                         <ul>
+                                                             <li>Alternative dispute resolution (ADR)</li>
+                                                             <li>Bilateral and multilateral investment treaty disputes </li>
+                                                             <li>Mediation Services</li>
+                                                             <li>Litigation and disputes</li>
+                                                             <li>Post-award enforcement</li>
+                                                             <li>Risk management</li>
+                                                             <li>Treaty-based arbitrations</li>
+                                                             <li>All types of institutional and ad hoc commercial arbitrations </li>
+
+
+                                                         </ul>
+                                                    </p>
+                                                </li> -->
+
+
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -83,11 +122,11 @@ drafting of primary and secondary/subsidiary legislative proposals and measures.
                                         Opinion</a></li>
                                 <li><a href="alternate-dispute.html"><i class="las la-angle-double-right"></i></i>Alternate
                                         Dispute Resolution</a></li>
-
+                                <li><a href="legislative-drafting.html"><i
+                                            class="las la-angle-double-right"></i></i>Legislative Drafting</a></li>
                                 <li><a href="clinical.html"><i class="las la-angle-double-right"></i></i>clinical Negligence
                                         And Personal Injury</a></li>
-                                <li><a href="prof-negligence.html"><i class="las la-angle-double-right"></i></i>Professional
-                                        Negligence</a></li>
+
                                 <li><a href="criminal.html"><i class="las la-angle-double-right"></i></i>Criminal Law And
                                         Appeals</a></li>
                                 <li><a href="civil.html"><i class="las la-angle-double-right"></i></i>Civil Law And

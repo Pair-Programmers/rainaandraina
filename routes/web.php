@@ -120,6 +120,17 @@ Route::get('/tax-audit', function () {
     return view('pages/practice_area/tax-audit');
 })->name('practice-area.tax-audit');
 
+Route::get('/registration-of-foreign-companies', function () {
+    return view('pages/practice_area/registration-of-foreign-companies');
+})->name('practice-area.registration-of-foreign-companies');
+
+Route::get('/property-and-real-estate', function () {
+    return view('pages/practice_area/property-and-real-estate');
+})->name('practice-area.property-and-real-estate');
+
+
+
+
 Route::get('/articles/{category?}', [App\Http\Controllers\BlogController::class, 'index'])->name('blog.index');
 Route::get('/article/{blog}', [App\Http\Controllers\BlogController::class, 'show'])->name('blog.show');
 
