@@ -91,6 +91,40 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-card">
+                        <a href="{{ route('practice-area.property-and-real-estate') }}">
+                            <img src="{{ asset('assets') }}/img/services/property-and-real-estate.jpg"
+                                alt="property-and-real-estate.jpg">
+                        </a>
+                        <div class="service-text">
+                            <!-- <i class="las la-balance-scale-right"></i> -->
+                            <h3><a href="{{ route('practice-area.property-and-real-estate') }}">Property and Real
+                                    Estate</a></h3>
+                            <p>Raina & Raina is involved in providing services and assistance to our clients in buying and
+                                selling of both movable and immovable properties & real estate in Pakistan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-card">
+                        <a href="{{ route('practice-area.registration-of-foreign-companies') }}">
+                            <img src="{{ asset('assets') }}/img/services/registration-of-foreign-companies.jpg"
+                                alt="registration-of-foreign-companies.jpg">
+                        </a>
+                        <div class="service-text">
+                            <!-- <i class="las la-balance-scale-right"></i> -->
+                            <h3><a href="{{ route('practice-area.registration-of-foreign-companies') }}">Registration of
+                                    Foreign Companies</a></h3>
+                            <p>Our law firm’s competence in Pakistan is also represented by legal advice and representation
+                                for clients in Pakistan for setting up a company.</p>
+                        </div>
+                    </div>
+                </div>
+                
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{ route('practice-area.foreign') }}">
@@ -250,38 +284,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service-card">
-                        <a href="{{ route('practice-area.property-and-real-estate') }}">
-                            <img src="{{ asset('assets') }}/img/services/property-and-real-estate.jpg"
-                                alt="property-and-real-estate.jpg">
-                        </a>
-                        <div class="service-text">
-                            <!-- <i class="las la-balance-scale-right"></i> -->
-                            <h3><a href="{{ route('practice-area.property-and-real-estate') }}">Property and Real
-                                    Estate</a></h3>
-                            <p>Raina & Raina is involved in providing services and assistance to our clients in buying and
-                                selling of both movable and immovable properties & real estate in Pakistan.
-                            </p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service-card">
-                        <a href="{{ route('practice-area.registration-of-foreign-companies') }}">
-                            <img src="{{ asset('assets') }}/img/services/registration-of-foreign-companies.jpg"
-                                alt="registration-of-foreign-companies.jpg">
-                        </a>
-                        <div class="service-text">
-                            <!-- <i class="las la-balance-scale-right"></i> -->
-                            <h3><a href="{{ route('practice-area.registration-of-foreign-companies') }}">Registration of
-                                    Foreign Companies</a></h3>
-                            <p>Our law firm’s competence in Pakistan is also represented by legal advice and representation
-                                for clients in Pakistan for setting up a company.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
 
         </div>
