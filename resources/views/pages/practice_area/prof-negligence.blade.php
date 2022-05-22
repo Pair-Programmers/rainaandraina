@@ -40,7 +40,7 @@ disputes across key industries worldwide.">
                             <img src="{{asset('assets')}}/img/services/Professional_negligence_1_575x400.jpg" alt="Professional_negligence_1_575x400.jpg">
                         </div>
                         <div class="services-details-content">
-                            <h3>Professional Negligence</h3>
+                            <h3>Professional Negligence Dispute</h3>
                             <p>Our global team of professional negligence lawyers’s advice, act on and defend a range of
                                 high-value domestic, international and cross-border professional indemnity and liability
                                 disputes across key industries worldwide. </p>

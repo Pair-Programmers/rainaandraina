@@ -41,7 +41,7 @@
                                 alt="TAX_AUDITS__APPEALS_1_575x400.jpg">
                         </div>
                         <div class="services-details-content">
-                            <h3>TAX AUDITS & APPEALS</h3>
+                            <h3>Tax Audits & Appeals</h3>
                             <p> Raina & Raina tax lawyers provide comprehensive legal advice covering all areas of tax law
                                 including planning, investigations and litigation services, anywhere in the world.</p>
 
@@ -54,7 +54,7 @@
                                 knowledge of tax laws around the world is reinforced by our strong industry sector focus.
                             </p>
 
-                       
+
                             <div class="faq-area">
                                 <div class="faq-accordion">
                                     <ul class="accordion">

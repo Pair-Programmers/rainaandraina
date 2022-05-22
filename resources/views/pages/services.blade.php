@@ -49,7 +49,7 @@
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-city"></i> -->
-                            <h3><a href="{{ route('practice-area.tax-audit') }}">TAX AUDITS & APPEALS <span> </span></a>
+                            <h3><a href="{{ route('practice-area.tax-audit') }}">Tax Audits & Appeals <span> </span></a>
                             </h3>
                             <p>Raina & Raina tax lawyers provide comprehensive legal advice covering all areas of tax law
                                 including planning, investigations and litigation services, anywhere in the world.Our
@@ -124,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-card">
                         <a href="{{ route('practice-area.foreign') }}">
@@ -149,7 +149,7 @@
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-broadcast-tower"></i> -->
-                            <h3><a href="{{ route('practice-area.alternate-dispute') }}">ALTERNATE DISPUTE RESOLUTION</a>
+                            <h3><a href="{{ route('practice-area.alternate-dispute') }}">Alternate Dispute Resolution</a>
                             </h3>
                             <p>Raina & Raina law firm houses several attorneys who are also experienced mediators, who offer
                                 an effective way of resolving disputes at domestic and international </p>
@@ -183,7 +183,7 @@
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
-                            <h3><a href="{{ route('practice-area.clinical') }}">CLINICAL NEGLIGENCE AND PERSONAL INJURY
+                            <h3><a href="{{ route('practice-area.clinical') }}">Clinical Negligence And Personal Injury
                                     <span></span></a></h3>
                             <p>Raina & Raina offers a comprehensive clinical negligence, medical law and personal injury
                                 service, as well as being well known for having brought many of the high profile group
@@ -199,8 +199,8 @@
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
-                            <h3><a href="{{ route('practice-area.prof-negligence') }}">Professional negligence<span>
-                                        Disputes</span></a></h3>
+                            <h3><a href="{{ route('practice-area.prof-negligence') }}">Professional Negligence
+                                        Disputes</a></h3>
                             <p>Our global team of professional negligence lawyers advise, act on and defend a range of
                                 high-value domestic, international and cross-border professional indemnity and liability
                                 disputes across key industries worldwide </p>
@@ -215,7 +215,7 @@
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
-                            <h3><a href="{{ route('practice-area.criminal') }}">CRIMINAL LAW AND APPEALS <span> </span></a>
+                            <h3><a href="{{ route('practice-area.criminal') }}">Criminal Law And Appeals <span> </span></a>
                             </h3>
                             <p>The Crime Team at Raina & Raina offers a genuinely holistic advice and advocacy service for
                                 all issues relating to criminal justice including trials, appeals, business crime and fraud,
@@ -230,7 +230,7 @@
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
-                            <h3><a href="{{ route('practice-area.civil') }}">CIVIL LAW AND APPEALS <span> </span></a></h3>
+                            <h3><a href="{{ route('practice-area.civil') }}">Civil Law And Appeals <span> </span></a></h3>
                             <p>The Crime Team at Raina & Raina offers a genuinely holistic advice and advocacy service for
                                 all issues relating to criminal justice including trials, appeals, business crime and fraud,
                                 extradition, international crime, and civil and public law issues arising </p>
@@ -245,7 +245,7 @@
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
-                            <h3><a href="{{ route('practice-area.media-law') }}">MEDIA LAW AND INFORMATION LAW
+                            <h3><a href="{{ route('practice-area.media-law') }}">Media Law And Information Law
                                     <span></span></a></h3>
                             <p>Raina & Raina , members practicing in this area have extensive experience in advising and
                                 representing individuals and organizations in data protection and freedom of</p>
@@ -275,7 +275,7 @@
                         </a>
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
-                            <h3><a href="{{ route('practice-area.international') }}">INTERNATIONAL LAW <span> </span></a>
+                            <h3><a href="{{ route('practice-area.international') }}">International Law <span> </span></a>
                             </h3>
                             <p>Raina & Raina has unrivalled expertise in advice and advocacy on all aspects of international
                                 law. DSI comprises the Public International Law, International Criminal Law, International

@@ -39,7 +39,7 @@ law.">
                             <img src="{{asset('assets')}}/img/services/INTERNATIONAL_LAW_1_575x400.jpg" alt="INTERNATIONAL_LAW_1_575x400.jpg">
                         </div>
                         <div class="services-details-content">
-                            <h3>INTERNATIONAL LAW </h3>
+                            <h3>International Law</h3>
                             <p>Raina & Raina has unrivalled expertise in advice and advocacy on all aspects of international
                                 law.</p>
                             <p><b> DSI comprises the Public International Law, International Criminal Law, Private

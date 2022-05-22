@@ -40,7 +40,7 @@ and fraud, extradition, international crime,">
                             <img src="{{asset('assets')}}/img/services/civil_575x400.jpg" alt="civil_575x400.jpg">
                         </div>
                         <div class="services-details-content">
-                            <h3>CIVIL LAW AND APPEALS</h3>
+                            <h3>Civil Law And Appeals</h3>
                             <p><b>The Crime Team at Raina & Raina offers a genuinely holistic advice and advocacy service
                                     for all issues relating to criminal justice including trials, appeals, business crime
                                     and fraud, extradition, international crime, and civil and public law issues arising

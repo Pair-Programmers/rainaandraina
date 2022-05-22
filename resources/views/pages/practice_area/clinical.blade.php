@@ -40,7 +40,7 @@ actions and product liability cases of recent years.">
                             <img src="{{asset('assets')}}/img/services/CLINICAL_NEGLIGENCE_2_575x400.jpg" alt="CLINICAL_NEGLIGENCE_2_575x400.jpg">
                         </div>
                         <div class="services-details-content">
-                            <h3>CLINICAL NEGLIGENCE AND PERSONAL INJURY </h3>
+                            <h3>Clinical Negligence And Personal Injury</h3>
 
                             <p><b>Raina & Raina offers a comprehensive clinical negligence, medical law and personal injury
                                     service, as well as being well known for having brought many of the high profile group

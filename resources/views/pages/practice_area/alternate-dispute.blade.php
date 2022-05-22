@@ -39,7 +39,7 @@ an effective way of resolving disputes at domestic and international level.">
                             <img src="{{asset('assets')}}/img/services/ALTERNATE_DISPUTE_RESOLUTION_1_575x400.jpg" alt="ALTERNATE_DISPUTE_RESOLUTION_1_575x400.jpg">
                         </div>
                         <div class="services-details-content">
-                            <h3>ALTERNATE DISPUTE RESOLUTION</h3>
+                            <h3>Alternate Dispute Resolution</h3>
                             <p>Raina & Raina law firm houses several attorneys who are also experienced mediators, who offer
                                 an effective way of resolving disputes at domestic and international level. </p>
                             <p><b><i>International arbitration is most effectively handled by a team with global reach and

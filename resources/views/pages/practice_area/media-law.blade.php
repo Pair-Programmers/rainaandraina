@@ -41,7 +41,7 @@ the European Court of Human Rights.">
                             <img src="{{asset('assets')}}/img/services/MEDIA_LAW_AND_INFORMATION_LAW_1_575x400.jpg" alt="MEDIA_LAW_AND_INFORMATION_LAW_1_575x400.jpg">
                         </div>
                         <div class="services-details-content">
-                            <h3>MEDIA LAW AND INFORMATION LAW</h3>
+                            <h3>Media Law And Information Law</h3>
                             <p><b>Raina & Raina, members practicing in this area have extensive experience in advising and
                                     representing individuals and organizations in data protection and freedom of information
                                     cases at all judicial levels from the Information Tribunal up to the Supreme Court and
