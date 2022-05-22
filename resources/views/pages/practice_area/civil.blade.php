@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title-meta')
-<title>CIVIL LAW AND APPEALS - Practice Area | Raina & Raina</title>
+<title>Civil Law And Appeals - Practice Area | Raina & Raina</title>
 <meta name="description" content="The Crime Team at Raina & Raina offers a genuinely holistic advice and advocacy service
 for all issues relating to criminal justice including trials, appeals, business crime
 and fraud, extradition, international crime,">

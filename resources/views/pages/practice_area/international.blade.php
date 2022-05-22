@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title-meta')
-<title>INTERNATIONAL LAW - Practice Area | Raina & Raina</title>
+<title>International Law - Practice Area | Raina & Raina</title>
 <meta name="description" content="Raina & Raina has unrivalled expertise in advice and advocacy on all aspects of international
 law.">
 <meta name="keywords" content="Raina, Practice Area, INTERNATIONAL LAW, advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">

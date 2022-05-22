@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title-meta')
-    <title>TAX AUDITS & APPEALS - Practice Area | Raina & Raina</title>
+    <title>Tax Audits & Appeals - Practice Area | Raina & Raina</title>
     <meta name="description" content="Raina & Raina tax lawyers provide comprehensive legal advice covering all areas of tax law
     including planning, investigations and litigation services, anywhere in the world.">
     <meta name="keywords"

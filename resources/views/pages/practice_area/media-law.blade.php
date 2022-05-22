@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title-meta')
-<title>MEDIA LAW AND INFORMATION LAW - Practice Area | Raina & Raina</title>
+<title>Media Law And Information Law - Practice Area | Raina & Raina</title>
 <meta name="description" content="Raina & Raina, members practicing in this area have extensive experience in advising and
 representing individuals and organizations in data protection and freedom of information
 cases at all judicial levels from the Information Tribunal up to the Supreme Court and

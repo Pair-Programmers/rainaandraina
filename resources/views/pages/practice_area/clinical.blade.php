@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title-meta')
-<title>CLINICAL NEGLIGENCE AND PERSONAL INJURY - Practice Area | Raina & Raina</title>
+<title>Clinical Negligence And Personal Injury - Practice Area | Raina & Raina</title>
 <meta name="description" content="Raina & Raina offers a comprehensive clinical negligence, medical law and personal injury
 service, as well as being well known for having brought many of the high profile group
 actions and product liability cases of recent years.">

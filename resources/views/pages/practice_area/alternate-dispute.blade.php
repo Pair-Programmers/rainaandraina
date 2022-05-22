@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title-meta')
-<title>ALTERNATE DISPUTE RESOLUTION - Practice Area | Raina & Raina</title>
+<title>Alternate Dispute Resolution - Practice Area | Raina & Raina</title>
 <meta name="description" content="Raina & Raina law firm houses several attorneys who are also experienced mediators, who offer
 an effective way of resolving disputes at domestic and international level.">
 <meta name="keywords" content="Raina, Practice Area,ALTERNATE DISPUTE RESOLUTION, advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">
