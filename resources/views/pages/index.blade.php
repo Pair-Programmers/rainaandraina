@@ -673,7 +673,7 @@
                         <img src="{{asset('assets')}}/img/testimonials/Bombay-chopaty.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
-                                <h3>M/s Bombay Chopaty</h3>
+                                <h3>M/s Bombay Chowpaty</h3>
                                 <p></p>
                             </div>
                         </div>
@@ -861,126 +861,57 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
-                <!-- <div class="testimonials-slider-item feed-back">
+
+
+
+                <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/national-hospital.png" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
-                                <h3>M/s Ittehad Sugar Mills (Pvt.) Ltd.   </h3>
-                                <p>Case</p>
+                                <h3>National Hospital</h3>
+                                <p></p>
                             </div>
                         </div>
                     </div>
+                </div>
 
-
-                </div> -->
-                <!-- <div class="testimonials-slider-item feed-back">
+                <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/orient-electronics.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
-                                <h3>M/s Bullahy Shah Dying    </h3>
-                                <p>Case</p>
+                                <h3>Orient Electronics</h3>
+                                <p></p>
                             </div>
                         </div>
                     </div>
+                </div>
 
-
-                </div> -->
-                <!-- <div class="testimonials-slider-item feed-back">
+                <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/pell-electronics.png" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
-                                <h3>M/s Al-Rehman Foods    </h3>
-                                <p>Case</p>
+                                <h3>Pell Electronics</h3>
+                                <p></p>
                             </div>
                         </div>
                     </div>
+                </div>
 
-
-                </div> -->
-                <!-- <div class="testimonials-slider-item feed-back">
+                <div class="testimonials-slider-item feed-back">
                     <div class="testimonials-img">
-                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
+                        <img src="{{asset('assets')}}/img/testimonials/pioneer-cement.jpg" alt="Image">
                         <div class="caption bottom-0">
                             <div class="caption-text">
-                                <h3>M/s Kardan International (Pvt.) Ltd.     </h3>
-                                <p>Case</p>
+                                <h3>Pioneer Cement</h3>
+                                <p></p>
                             </div>
                         </div>
                     </div>
-
-
-                </div> -->
-                <!-- <div class="testimonials-slider-item feed-back">
-                    <div class="testimonials-img">
-                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
-                        <div class="caption bottom-0">
-                            <div class="caption-text">
-                                <h3>M/s Bombay Chowpatty     </h3>
-                                <p>Case</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div> -->
-                <!-- <div class="testimonials-slider-item feed-back">
-                    <div class="testimonials-img">
-                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
-                        <div class="caption bottom-0">
-                            <div class="caption-text">
-                                <h3>M/s Power Solutions     </h3>
-                                <p>Case</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div> -->
-                <!-- <div class="testimonials-slider-item feed-back">
-                    <div class="testimonials-img">
-                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
-                        <div class="caption bottom-0">
-                            <div class="caption-text">
-                                <h3>M/s Standard Brands (Pvt.) Ltd.      </h3>
-                                <p>Case</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div> -->
-                <!-- <div class="testimonials-slider-item feed-back">
-                    <div class="testimonials-img">
-                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
-                        <div class="caption bottom-0">
-                            <div class="caption-text">
-                                <h3>M/s Five Star Petroleum (Pvt.) Ltd.       </h3>
-                                <p>Case</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div> -->
-                <!-- <div class="testimonials-slider-item feed-back">
-                    <div class="testimonials-img">
-                        <img src="{{asset('assets')}}/img/testimonials/testimonials1.jpg" alt="Image">
-                        <div class="caption bottom-0">
-                            <div class="caption-text">
-                                <h3>M/s The Limited Group of Colleges (Pvt.) Ltd.        </h3>
-                                <p>Case</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div> -->
+                </div>
 
             </div>
         </div>
