@@ -169,6 +169,17 @@ Route::prefix('admin')->name('admin.')->middleware('auth:admin')->group(function
         Route::put('/{id}', 'update')->name('update');
         Route::delete('/{blogCategory:id}', 'destroy')->name('destroy');
     });
+
+    //blog-category
+    Route::controller(App\Http\Controllers\Adminpanel\GalleryControler::class)->prefix('gallery')->name('gallery.')->group(function () {
+        Route::get('/', 'index')->name('index');
+        Route::get('/create', 'create')->name('create');
+        Route::post('/', 'store')->name('store');
+        Route::get('/{blogCategory}', 'show')->name('show');
+        Route::get('/{blogCategory}/edit', 'edit')->name('edit');
+        Route::put('/{id}', 'update')->name('update');
+        Route::delete('/{blogCategory:id}', 'destroy')->name('destroy');
+    });
 });
 
 

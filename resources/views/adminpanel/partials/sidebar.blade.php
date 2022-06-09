@@ -52,6 +52,18 @@
                 </ul>
             </li>
 
+            <li class="@if (request()->is('admin/gallery*'))  {{'active'}} @else {{''}} @endif">
+                <a href="#">
+                    <i class="fa fa-file-text"></i>
+                    <span class="nav-label">Gallery Images</span>
+                    <span class="fa arrow"></span>
+                </a>
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="{{ route('admin.gallery.create') }}">Upload</a></li>
+                    <li><a href="{{ route('admin.gallery.index') }}">List</a></li>
+                </ul>
+            </li>
+
 
         </ul>
 
