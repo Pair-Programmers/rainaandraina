@@ -1029,7 +1029,7 @@
     <div class="blog-area pt-100 pb-70">
         <div class="container">
             <div class="section-title">
-                <span>Latest Blog</span>
+                <span>New Articles</span>
                 <h2>Top <span>Blog</span> Related To Law, Cases & Consulting</h2>
             </div>
 

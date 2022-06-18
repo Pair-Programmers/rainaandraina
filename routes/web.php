@@ -35,10 +35,6 @@ Route::get('/clients', function () {
     return view('pages/clients');
 })->name('clients');
 
-Route::get('/gallery.', function () {
-    return view('pages/gallery');
-})->name('gallery');
-
 // Route::get('/article', function () {
 //     return view('pages/article');
 // })->name('article');
@@ -134,6 +130,9 @@ Route::get('/property-and-real-estate', function () {
 Route::get('/articles/{category?}', [App\Http\Controllers\BlogController::class, 'index'])->name('blog.index');
 Route::get('/article/{blog}', [App\Http\Controllers\BlogController::class, 'show'])->name('blog.show');
 
+//gallery
+Route::get('/events', [App\Http\Controllers\GalleryController::class, 'index'])->name('gallery');
+Route::get('/events/{folder}', [App\Http\Controllers\GalleryController::class, 'show'])->name('gallery.show');
 
 //adminpanel
 Route::get('admin/login', [App\Http\Controllers\Adminpanel\AuthController::class, 'show'])->name('admin.login.show');
@@ -170,15 +169,15 @@ Route::prefix('admin')->name('admin.')->middleware('auth:admin')->group(function
         Route::delete('/{blogCategory:id}', 'destroy')->name('destroy');
     });
 
-    //blog-category
+    //gallery
     Route::controller(App\Http\Controllers\Adminpanel\GalleryControler::class)->prefix('gallery')->name('gallery.')->group(function () {
         Route::get('/', 'index')->name('index');
         Route::get('/create', 'create')->name('create');
         Route::post('/', 'store')->name('store');
-        Route::get('/{blogCategory}', 'show')->name('show');
-        Route::get('/{blogCategory}/edit', 'edit')->name('edit');
+        Route::get('/{id}', 'show')->name('show');
+        Route::get('/{id}/edit', 'edit')->name('edit');
         Route::put('/{id}', 'update')->name('update');
-        Route::delete('/{blogCategory:id}', 'destroy')->name('destroy');
+        Route::delete('/{id}', 'destroy')->name('destroy');
     });
 });
 

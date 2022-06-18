@@ -19,7 +19,8 @@
                     <h2>Gallery</h2>
                     <ul>
                         <li><a href="{{route('home')}}">Home <i class="las la-angle-right"></i></a></li>
-                        <li>Gallery</li>
+                        <li><a href="{{route('gallery')}}">Gallery <i class="las la-angle-right"></i></a></li>
+                        <li>{{$folder->name}}</li>
                     </ul>
                 </div>
             </div>
@@ -35,21 +36,7 @@
             <h2>Gallery Images</h2>
         </div>
         <div class="row">
-            @foreach ($folders as $folder)
-            <div class="col-lg-4 col-md-6">
-                <a href="{{route('gallery.show', $folder)}}" >
-                <div class="atorn-gallery" style="text-align: center">
-                    @forelse ($folder->galleryImages as $galleryImage)
-                        <img src="{{asset('storage/images/gallery')}}/{{$galleryImage->image}}" alt="image">
-                    @empty
-                        <img src="assets/img/gallery/gpic1.jpg" alt="image">
-                    @endforelse
 
-                        {{$folder->name}} Images
-                </div>
-            </a>
-            </div>
-            @endforeach
 
             @foreach ($galleryImages as $galleryImage)
             <div class="col-lg-4 col-md-6">
@@ -67,6 +54,8 @@
                 </div>
             </div>
             @endforeach
+
+
 
         </div>
     </div>

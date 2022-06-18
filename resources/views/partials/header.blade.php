@@ -106,7 +106,7 @@
 
                                     <li class="nav-item">
                                         <a href="{{route('attorney')}}" class="nav-link">
-                                            Team Raina & Raina
+                                            Our People
                                         </a>
                                     </li>
 
@@ -118,13 +118,13 @@
                                     </li>
                                     <li class="nav-item">
                                         <a href="{{route('gallery')}}" class="nav-link">
-                                            Gallery
+                                            Events
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="{{route('blog.index')}}" class="nav-link">
-                                            Article
+                                            Articles
                                         </a>
                                     </li>
 

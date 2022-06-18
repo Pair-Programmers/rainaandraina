@@ -1,13 +1,12 @@
 @extends('adminpanel.layouts.master')
 
 @section('title-meta')
-    <title>{{ env('APP_NAME', 'Admin') }} | Blog Create</title>
+    <title>{{ env('APP_NAME', 'Admin') }} | Category Create</title>
 
     <meta name="description" content="this is description">
 @endsection
 
 @section('other-css')
-    <link href="{{ asset('assets/adminpanel') }}/css/plugins/cropper/cropper.min.css" rel="stylesheet">
 @endsection
 
 @section('content')
@@ -19,10 +18,10 @@
 
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-sm-4">
-                <h2>Gallery Management</h2>
+                <h2>Category Management</h2>
                 <ol class="breadcrumb">
                     <li>
-                        <a href="index.html">Blog</a>
+                        <a href="index.html">Category</a>
                     </li>
                     <li class="active">
                         <strong>Create</strong>
@@ -31,18 +30,19 @@
             </div>
             <div class="col-sm-8">
                 <div class="title-action">
-                    <a href="{{ route('admin.blog.index') }}" class="btn btn-primary">Show List</a>
+                    <a href="{{ route('admin.gallery.index') }}" class="btn btn-primary">Show List</a>
                 </div>
             </div>
         </div>
 
+        <div class="wrapper wrapper-content ">
 
-        <div class="wrapper wrapper-content">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="ibox float-e-margins">
-                        <div class="ibox-title  back-change">
-                            <h5>Image cropper <small>http://fengyuanchen.github.io/cropper/</small></h5>
+
+                        <div class="ibox-title">
+                            <h5>Gallery Images </h5>
                             <div class="ibox-tools">
                                 <a class="collapse-link">
                                     <i class="fa fa-chevron-up"></i>
@@ -61,48 +61,74 @@
                                 </a>
                             </div>
                         </div>
+
                         <div class="ibox-content">
-                            <p>
-                                A simple jQuery image cropping plugin.
-                            </p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="image-crop">
-                                        <img src="{{ asset('assets/adminpanel') }}/img/p3.jpg">
+                            <form method="POST" action="{{ route('admin.gallery.store') }}" class="form-horizontal"
+                                enctype="multipart/form-data">
+                                @csrf
+
+
+                                <div class="form-group"><label class="col-sm-2 control-label">Folder</label>
+                                    <div class="col-sm-4 @error('gallery_folder_id') has-error @enderror">
+                                        <select class="form-control" value="{{old('gallery_folder_id')}}" name="gallery_folder_id" required>
+
+                                            @foreach ($folders as $key => $folder)
+                                                <option value="{{$folder->id}}">{{$folder->name}}</option>
+                                            @endforeach
+                                        </select>
+                                        @error('gallery_folder_id')
+                                            <span class="help-block m-b-none">{{$message}}</span>
+                                        @enderror
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <h4>Preview image</h4>
-                                    <div class="img-preview img-preview-sm"></div>
-                                    <h4>Comon method</h4>
-                                    <p>
-                                        You can upload new image to crop container and easy download new cropped image.
-                                    </p>
-                                    <div class="btn-group">
-                                        <label title="Upload image file" for="inputImage" class="btn btn-primary">
-                                            <input type="file" accept="image/*" name="file" id="inputImage"
-                                                class="hide">
-                                            Upload new image
-                                        </label>
-                                        <label title="Donload image" id="download" class="btn btn-primary">Download</label>
+
+                                <div class="form-group  ">
+
+                                    <label class="col-sm-2 control-label">Images</label>
+                                    <div class="col-sm-4 @error('images[]') has-error @enderror ">
+                                        <input id="" name="images[]" type="file" multiple accept="image/*"  class="form-control"
+                                            value="{{ old('name') }}">
+                                        @error('images[]')
+                                            <span class="help-block m-b-none">{{$message}}</span>
+                                        @enderror
                                     </div>
-                                    <h4>Other method</h4>
-                                    <p>
-                                        You may set cropper options with <code>$(image}).cropper(options)</code>
-                                    </p>
-                                    <div class="btn-group">
-                                        <button class="btn btn-white" id="zoomIn" type="button">Zoom In</button>
-                                        <button class="btn btn-white" id="zoomOut" type="button">Zoom Out</button>
-                                        <button class="btn btn-white" id="rotateLeft" type="button">Rotate Left</button>
-                                        <button class="btn btn-white" id="rotateRight" type="button">Rotate Right</button>
-                                        <button class="btn btn-warning" id="setDrag" type="button">New crop</button>
+
+                                </div>
+
+                                <div class="form-group ">
+
+                                    <label class="col-sm-2 control-label">Order Number</label>
+                                    <div class="col-sm-4 @error('name') has-error @enderror ">
+                                        <input id="" name="order_number" type="number"  class="form-control"
+                                            value="{{ old('order_number') }}">
+                                        @error('order_number')
+                                            <span class="help-block m-b-none">{{$message}}</span>
+                                        @enderror
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="hr-line-dashed"></div>
+
+
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-2">
+                                        <button class="btn btn-primary" type="submit">Upload</button>
                                     </div>
                                 </div>
-                            </div>
+
+
+
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
+
+
         </div>
 
         @include('adminpanel.partials.footer')
@@ -112,71 +138,21 @@
 
 
 @section('custom-script')
-    <!-- Image cropper -->
-    <script src="{{ asset('assets/adminpanel') }}/js/plugins/cropper/cropper.min.js"></script>
     <script>
         $(document).ready(function() {
 
-            var $image = $(".image-crop > img")
-            $($image).cropper({
-                aspectRatio: 1,
-                preview: ".img-preview",
-                done: function(data) {
-                    // Output the result data for cropping image.
-                    
-                }
-            });
+            $('.summernote').summernote();
 
-            var $inputImage = $("#inputImage");
-            if (window.FileReader) {
-                $inputImage.change(function() {
-                    var fileReader = new FileReader(),
-                        files = this.files,
-                        file;
-
-                    if (!files.length) {
-                        return;
-                    }
-
-                    file = files[0];
-
-                    if (/^image\/\w+$/.test(file.type)) {
-                        fileReader.readAsDataURL(file);
-                        fileReader.onload = function() {
-                            $inputImage.val("");
-                            $image.cropper("reset", true).cropper("replace", this.result);
-                        };
-                    } else {
-                        showMessage("Please choose an image file.");
-                    }
-                });
-            } else {
-                $inputImage.addClass("hide");
-            }
-
-            $("#download").click(function() {
-                window.open($image.cropper("getDataURL"));
-            });
-
-            $("#zoomIn").click(function() {
-                $image.cropper("zoom", 0.1);
-            });
-
-            $("#zoomOut").click(function() {
-                $image.cropper("zoom", -0.1);
-            });
-
-            $("#rotateLeft").click(function() {
-                $image.cropper("rotate", 45);
-            });
-
-            $("#rotateRight").click(function() {
-                $image.cropper("rotate", -45);
-            });
-
-            $("#setDrag").click(function() {
-                $image.cropper("setDragMode", "crop");
-            });
         });
+
+        var edit = function() {
+            $('.click2edit').summernote({
+                focus: true
+            });
+        };
+        var save = function() {
+            var aHTML = $('.click2edit').code(); //save HTML If you need(aHTML: array).
+            $('.click2edit').destroy();
+        };
     </script>
 @endsection

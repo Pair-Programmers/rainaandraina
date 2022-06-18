@@ -8,4 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class GalleryFolder extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'name',
+        'order_number',
+    ];
+
+    public function galleryImages()
+    {
+        return $this->hasMany(Gallery::class, 'gallery_folder_id', 'id')->take(1);
+    }
 }

@@ -4,7 +4,9 @@ namespace App\Http\Controllers\Adminpanel;
 
 use App\Http\Controllers\Controller;
 use App\Models\Gallery;
+use App\Models\GalleryFolder;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class GalleryControler extends Controller
 {
@@ -15,8 +17,9 @@ class GalleryControler extends Controller
      */
     public function index()
     {
-        $gallery = Gallery::orderby('id', 'desc')->get();
-        return view('adminpanel.pages.gallery.index', compact('gallery'));
+
+        $galleryImages = Gallery::orderby('id', 'desc')->get();
+        return view('adminpanel.pages.gallery.index', compact('galleryImages'));
     }
 
     /**
@@ -26,7 +29,8 @@ class GalleryControler extends Controller
      */
     public function create()
     {
-        return view('adminpanel.pages.gallery.create');
+        $folders = GalleryFolder::all();
+        return view('adminpanel.pages.gallery.create', compact('folders'));
     }
 
     /**
@@ -37,7 +41,25 @@ class GalleryControler extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'images' => 'required',
+            'order_number' => 'nullable|numeric',
+            'gallery_folder_id' => 'required|integer|exists:gallery_folders,id',
+        ]);
+        $input['gallery_folder_id'] = $request->gallery_folder_id;
+        $input['admin_id'] = Auth::guard('admin')->id();
+        $input['order_number'] = $request->order_number;
+        // dd($request->all());
+        if ($request->hasFile('images')) {
+            $images = $request->file('images');
+            foreach ($images as $image) {
+                $name = time().'_'.$image->getClientOriginalName();
+                $image->move(public_path().'/storage/images/gallery', $name);
+                $input['image'] = $name;
+                Gallery::create($input);
+            }
+        }
+        return redirect()->back();
     }
 
     /**
@@ -59,7 +81,9 @@ class GalleryControler extends Controller
      */
     public function edit($id)
     {
-        //
+        $folders = GalleryFolder::all();
+        $galleryImage = Gallery::find($id);
+        return view('adminpanel.pages.gallery.edit', compact('folders', 'galleryImage'));
     }
 
     /**
@@ -71,7 +95,25 @@ class GalleryControler extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'image' => 'nullable|file',
+            'order_number' => 'nullable|numeric',
+            'gallery_folder_id' => 'required|integer|exists:gallery_folders,id',
+        ]);
+        // dd($request->all());
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $name = time().'_'.$image->getClientOriginalName();
+            $image->move(public_path().'/storage/images/gallery', $name);
+            $input['image'] = $name;
+        }
+        $gallaryImage = Gallery::find($id);
+        if($gallaryImage){
+            $gallaryImage->gallery_folder_id = $request->gallery_folder_id;
+            $gallaryImage->order_number = $request->order_number;
+            $gallaryImage->save();
+        }
+        return redirect()->back();
     }
 
     /**

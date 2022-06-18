@@ -15,6 +15,13 @@ return new class extends Migration
     {
         Schema::create('galleries', function (Blueprint $table) {
             $table->id();
+            $table->string('image');
+            $table->integer('order_number')->default(0);
+            $table->foreignId('gallery_folder_id');
+            $table->foreign('gallery_folder_id')->references('id')->on('gallery_folders');
+            $table->bigInteger('admin_id')->unsigned();
+            $table->foreign('admin_id')->references('id')->on('admins');
+
             $table->timestamps();
         });
     }
