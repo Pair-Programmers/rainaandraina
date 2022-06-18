@@ -339,7 +339,7 @@
     <!-- End Service Area -->
 
     <!-- Choose Area -->
-    <div class="choose-area ptb-100">
+    {{-- <div class="choose-area ptb-100">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
@@ -400,7 +400,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Choose Area -->
 
     <!-- Fun Fact Area -->
@@ -557,7 +557,7 @@
     <!-- End Right Way Area -->
 
     <!-- Contact Area -->
-    <div class="contact-area ptb-100">
+    {{-- <div class="contact-area ptb-100">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -656,11 +656,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Contact Area -->
 
     <!-- Testimonials Slider Area -->
-    <div class="testimonials-area ptb-100">
+    {{-- <div class="testimonials-area ptb-100">
         <div class="container">
             <div class="section-title text-center">
                 <span>Our Clients</span>
@@ -928,11 +928,11 @@
 
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Testimonials Slider Area -->
 
     <!-- Attorney Area -->
-    <div class="attorney-area pt-100 pb-70">
+    {{-- <div class="attorney-area pt-100 pb-70">
         <div class="container">
             <div class="section-title">
                 <span>Experienced Attorney</span>
@@ -983,7 +983,7 @@
 
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Attorney Area -->
 
     <!-- Partner Slider Area -->
