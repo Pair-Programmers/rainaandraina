@@ -154,7 +154,7 @@
                         </li>
                         <li>
                             <i class="las la-envelope"></i>
-                            <a href="mailto:info@rainaandraina.com">info@rainaandraina.com</a>
+                            <a href="mailto:rrainaadvocates@gmail.com">rrainaadvocates@gmail.com</a>
                         </li>
                         <li>
                             <i class="las la-map-marker-alt"></i>

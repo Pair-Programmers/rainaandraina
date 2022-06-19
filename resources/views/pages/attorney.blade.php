@@ -127,32 +127,21 @@
                             <img src="assets/img/attorney/shaheen.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
-                            <h3><a href="">Shaheen Naseer</a></h3>
-                            <p>Senior Researcher at Oxford Martin School, UK</p>
+                            <h3><a href="">Dr Shaheen Naseer</a></h3>
+                            <p>Senior Researcher Fellow in Economics at Oxford University. UK</p>
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-lg-1"></div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/2.jpg" alt="Image">
+                            <img src="assets/img/attorney/sultan.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
-                            <h3><a href="">Ifrah</a></h3>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="attorney-card">
-                        <a href="">
-                            <img src="assets/img/attorney/4.JPG" alt="Image">
-                        </a>
-                        <div class="attorney-card-text">
-                            <h3><a href="">Sultan</a></h3>
-
+                            <h3><a href="">Dr Sultan Mehmood</a></h3>
+                            <p>Lead Researcher at the World Bank's DE JURE Program</p>
                         </div>
                     </div>
                 </div>
