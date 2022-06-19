@@ -16,10 +16,10 @@
         <div class="d-table-cell">
             <div class="container">
                 <div class="page-content">
-                    <h2>Gallery</h2>
+                    <h2>Events</h2>
                     <ul>
                         <li><a href="{{route('home')}}">Home <i class="las la-angle-right"></i></a></li>
-                        <li><a href="{{route('gallery')}}">Gallery <i class="las la-angle-right"></i></a></li>
+                        <li><a href="{{route('gallery')}}">Events <i class="las la-angle-right"></i></a></li>
                         <li>{{$folder->name}}</li>
                     </ul>
                 </div>
@@ -33,7 +33,7 @@
 <div class="gallery-area pt-100 pb-70">
     <div class="container">
         <div class="section-title">
-            <h2>Gallery Images</h2>
+            <h2>Events Images</h2>
         </div>
         <div class="row">
 
