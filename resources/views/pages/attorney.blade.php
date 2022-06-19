@@ -128,7 +128,7 @@
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Dr Shaheen Naseer Rana</a></h3>
-                            <p>Senior Researcher Fellow in Economics at Oxford University. UK</p>
+                            <p>Senior Research Fellow in Economics at Oxford University. UK</p>
                         </div>
                     </div>
                 </div>
