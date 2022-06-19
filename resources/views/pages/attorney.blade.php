@@ -127,12 +127,12 @@
                             <img src="assets/img/attorney/shaheen.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
-                            <h3><a href="">Dr Shaheen Naseer</a></h3>
+                            <h3><a href="">Dr Shaheen Naseer Rana</a></h3>
                             <p>Senior Researcher Fellow in Economics at Oxford University. UK</p>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-1"></div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
