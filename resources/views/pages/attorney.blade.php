@@ -88,7 +88,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/4.jpg" alt="Image">
+                            <img src="assets/img/attorney/4.JPG" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Mujahid Arshad</a></h3>
@@ -148,7 +148,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/4.jpg" alt="Image">
+                            <img src="assets/img/attorney/4.JPG" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Sultan</a></h3>
@@ -164,7 +164,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/11.jpg" alt="Image">
+                            <img src="assets/img/attorney/11.JPG" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Rana Mohsin</a></h3>
