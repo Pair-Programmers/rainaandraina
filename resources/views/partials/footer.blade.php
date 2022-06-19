@@ -58,7 +58,7 @@
                         <li>
                             <a href="{{route('attorney')}}">
                                 <i class="las la-star"></i>
-                                Team Raina & Raina
+                                Our People
                             </a>
                         </li>
                         <li>
@@ -76,7 +76,7 @@
                         <li>
                             <a href="{{route('blog.index')}}">
                                 <i class="las la-star"></i>
-                                Artticle
+                                Articles
                             </a>
                         </li>
                         <li>
