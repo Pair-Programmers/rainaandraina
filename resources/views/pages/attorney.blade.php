@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title-meta')
-    <title>Attorney | Raina & Raina - Law & Attorney Firm</title>
+    <title>Our People | Raina & Raina - Law & Attorney Firm</title>
     <meta name="description"
         content="We are distinctive law firm providing superior legal services to domestic and international clients in broad array of areas enlisted in the succeeding pages. Our law firm is an enterprise of outstanding capabilities, unmatched enthusiasms, keen intellects, unyielding integrity and an extraordinary desire to understand and serve the clients.">
     <meta name="keywords"
@@ -18,10 +18,10 @@
             <div class="d-table-cell">
                 <div class="container">
                     <div class="page-content">
-                        <h2>Attorney</h2>
+                        <h2>Our People</h2>
                         <ul>
                             <li><a href="{{ route('home') }}">Home <i class="las la-angle-right"></i></a></li>
-                            <li>Attorney</li>
+                            <li>Our People</li>
                         </ul>
                     </div>
                 </div>
