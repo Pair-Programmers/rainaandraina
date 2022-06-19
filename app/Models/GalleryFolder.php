@@ -18,4 +18,9 @@ class GalleryFolder extends Model
     {
         return $this->hasMany(Gallery::class, 'gallery_folder_id', 'id')->take(1);
     }
+
+    public function galleryImagesCount()
+    {
+        return $this->hasMany(Gallery::class, 'gallery_folder_id', 'id');
+    }
 }

@@ -22,9 +22,9 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="tel:+823-456-879">
+                                    <a href="tel:+924235787931">
                                         <i class="las la-phone"></i>
-                                        +92 334 0811101
+                                        +92 42 35787931
                                     </a>
                                 </li>
                             </ul>
@@ -64,7 +64,7 @@
                         <div class="atorn-responsive-menu">
                             <div class="logo">
                                 <a href="{{route('home')}}">
-                                    <img src="assets/img/landscape Orignal Logo@2x.png" alt="logo">
+                                    <img src="{{asset('assets/img')}}/landscape-orignal-logo.svg" alt="logo">
                                 </a>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                     <div class="container">
                         <nav class="navbar navbar-expand-md navbar-light">
                             <a class="navbar-brand" href="{{route('home')}}">
-                                <img src="{{asset('assets')}}/img/landscape-orignal-logo.svg" alt="logo" style="width: 100%; height: 70px;">
+                                <img src="{{asset('assets/img')}}/landscape-orignal-logo.svg" alt="logo" style="width: 100%; height: 70px;">
                             </a>
 
                             <div class="collapse navbar-collapse mean-menu">
@@ -131,11 +131,7 @@
                                     <li class="nav-item">
                                         <a href="{{route('contact-us')}}" class="nav-link">Contact</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)" class="nav-link search-box">
-                                            <i class="las la-search"></i>
-                                        </a>
-                                    </li>
+
                                 </ul>
                             </div>
                         </nav>

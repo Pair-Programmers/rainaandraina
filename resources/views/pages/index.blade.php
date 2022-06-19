@@ -415,7 +415,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="signle-fun-fact">
                         <i class="las la-balance-scale"></i>
-                        <h3><span class="odometer" data-count="5600">00</span>+</h3>
+                        <h3><span class="odometer" data-count="2000">00</span>+</h3>
                         <p>Solved Cases</p>
                     </div>
                 </div>
@@ -423,7 +423,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="signle-fun-fact">
                         <i class="las la-gavel"></i>
-                        <h3><span class="odometer" data-count="4000">00</span>+</h3>
+                        <h3><span class="odometer" data-count="2000">00</span>+</h3>
                         <p>Cases Won</p>
                     </div>
                 </div>
@@ -431,16 +431,16 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="signle-fun-fact">
                         <i class="las la-trophy"></i>
-                        <h3><span class="odometer" data-count="1500">00</span>+</h3>
-                        <p>Awards Won</p>
+                        <h3><span class="odometer" data-count="500">00</span>+</h3>
+                        <p>International Clients</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="signle-fun-fact">
                         <i class="lab la-gitkraken"></i>
-                        <h3><span class="odometer" data-count="10">00</span></h3>
-                        <p>Top 10 Law Firms</p>
+                        <h3><span class="odometer" data-count="100">00</span>%</h3>
+                        <p>Global Reach</p>
                     </div>
                 </div>
             </div>
@@ -520,8 +520,8 @@
 
                     <div class="right-way-text">
                         <div class="section-title">
-                            <h2>We Fight For Right, Meet Us To Solve Your Legal Problem In Right Way</h2>
-                            <p>Our legal practitioners appear on a regular basis before courts and tribunals at all levels
+                            <h2>Founder's Message</h2>
+                            <p style="text-align: justify;">Our legal practitioners appear on a regular basis before courts and tribunals at all levels
                                 across Pakistan, in disputes relating to diverse areas of law and industry regulations.
                                 We fully appreciate and understand that different judicial and quasi-judicial forums require
                                 different skills and styles of advocacy. We build on the diversity of our experience to
@@ -1029,8 +1029,8 @@
     <div class="blog-area pt-100 pb-70">
         <div class="container">
             <div class="section-title">
-                <span>New Articles</span>
-                <h2>Top <span>Blog</span> Related To Law, Cases & Consulting</h2>
+                {{-- <span>New Articles</span> --}}
+                <h2>Top <span>Articles</span></h2>
             </div>
 
             <div class="row">

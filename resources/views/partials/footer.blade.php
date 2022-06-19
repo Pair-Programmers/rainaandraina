@@ -142,7 +142,15 @@
                     <ul class="info-list">
                         <li>
                             <i class="las la-phone"></i>
-                            <a href="tel:+0123456987">+92 334 0811101</a>
+                            <a href="tel:+924235787931">+92 42 35787931</a>
+                        </li>
+                        <li>
+                            <i class="las la-phone"></i>
+                            <a href="tel:+923224511937">+92 322 4511937</a>
+                        </li>
+                        <li>
+                            <i class="las la-envelope"></i>
+                            <a href="mailto:info@rainaandraina.com">info@rainaandraina.com</a>
                         </li>
                         <li>
                             <i class="las la-envelope"></i>

@@ -35,8 +35,8 @@
                 <div class="col-lg-6">
                     <div class="contact-text">
                         <div class="section-title">
-                            <h2>Contact Us Today, Get In Touch With Expert</h2>
-                            <p>Our legal practitioners appear on a regular basis before courts and tribunals at all levels
+                            <h2>Contact Us</h2>
+                            <p style="text-align: justify;">Our legal practitioners appear on a regular basis before courts and tribunals at all levels
                                 across Pakistan, in disputes relating to diverse areas of law and industry regulations.
                                 We fully appreciate and understand that different judicial and quasi-judicial forums require
                                 different skills and styles of advocacy. We build on the diversity of our experience to
@@ -48,7 +48,7 @@
                             <div class="col-lg-6">
                                 <div class="contact-card">
                                     <span>Phone Number</span>
-                                    <h3><a href="tel:+0123456987">+92 334 0811101</a></h3>
+                                    <h3><a href="tel:+924235787931">+92 42 35787931</a></h3>
                                 </div>
                             </div>
 
@@ -57,25 +57,16 @@
                                     <span>Our Social Link</span>
                                     <ul>
                                         <li>
-                                            <a href="#" target="_blank">
+                                            <a href="https://www.facebook.com/RainaRaina99" target="_blank">
                                                 <i class="lab la-facebook-f"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" target="_blank">
+                                            <a href="https://twitter.com/" target="_blank">
                                                 <i class="lab la-twitter"></i>
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="#" target="_blank">
-                                                <i class="lab la-instagram"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" target="_blank">
-                                                <i class="lab la-google-plus"></i>
-                                            </a>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </div>

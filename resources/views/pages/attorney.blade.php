@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title-meta')
-<title>Attorney | Raina & Raina - Law & Attorney Firm</title>
-<meta name="description" content="We are distinctive law firm providing superior legal services to domestic and international clients in broad array of areas enlisted in the succeeding pages. Our law firm is an enterprise of outstanding capabilities, unmatched enthusiasms, keen intellects, unyielding integrity and an extraordinary desire to understand and serve the clients.">
-<meta name="keywords" content="advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">
+    <title>Attorney | Raina & Raina - Law & Attorney Firm</title>
+    <meta name="description"
+        content="We are distinctive law firm providing superior legal services to domestic and international clients in broad array of areas enlisted in the succeeding pages. Our law firm is an enterprise of outstanding capabilities, unmatched enthusiasms, keen intellects, unyielding integrity and an extraordinary desire to understand and serve the clients.">
+    <meta name="keywords"
+        content="advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">
 @endsection
 
 @section('custom-css')
@@ -18,7 +20,7 @@
                     <div class="page-content">
                         <h2>Attorney</h2>
                         <ul>
-                            <li><a href="{{route('home')}}">Home <i class="las la-angle-right"></i></a></li>
+                            <li><a href="{{ route('home') }}">Home <i class="las la-angle-right"></i></a></li>
                             <li>Attorney</li>
                         </ul>
                     </div>
@@ -31,12 +33,11 @@
     <!-- Attorney Area -->
     <div class="attorney-area ptb-100">
         <div class="container">
-            <div class="section-title">
-                <span>Experienced Attorney</span>
-                <h2>Our Experienced Attorney Are Ready To answer any questions</h2>
+            <div class="section-title" style="background-color: #9c232c;">
+                <h2 style="color: white;">Senior Attorney & Founder</h2>
             </div>
 
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-lg-4 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
@@ -44,68 +45,164 @@
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Faisal Naseer Rana</a></h3>
-                            <p>Senior Attorney & Founder of Raina & Raina</p>
 
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-lg-4 col-sm-6">
-                    <div class="attorney-card">
-                        <a href="">
-                            <img src="assets/img/attorney/yasir.jpg" alt="Image">
-                        </a>
-                        <div class="attorney-card-text">
-                            <h3><a href="">Yasir Naseer Rana</a></h3>
-                            <p>Corporate Lawyer</p>
 
-                        </div>
-                    </div>
-                </div>
+            <div class="section-title" style="background-color: #9c232c;">
+                <h2 style="color: white;">Senior Associates</h2>
+            </div>
 
-                <div class="col-lg-4 col-sm-6">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
                             <img src="assets/img/attorney/attorney1.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Azeem Danyal</a></h3>
-                            <p>Corporate Attorney</p>
 
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/attorney4.jpg" alt="Image">
+                            <img src="assets/img/attorney/yasir.jpg" alt="Image">
+                        </a>
+                        <div class="attorney-card-text">
+                            <h3><a href="">Yasir Naseer Rana</a></h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="attorney-card">
+                        <a href="">
+                            <img src="assets/img/attorney/4.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Mujahid Arshad</a></h3>
-                            <p>Corporate Attorney</p>
 
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-lg-4 col-sm-6">
+            <div class="row justify-content-center">
+
+
+                <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/sardar.jpg" alt="Image">
+                            <img src="assets/img/attorney/2.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Sardar Ali Bhatti</a></h3>
-                            <p>Corporate Attorney</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="section-title" style="background-color: #9c232c;">
+                <h2 style="color: white;">Senior Consultants</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="attorney-card">
+                        <a href="">
+                            <img src="assets/img/attorney/shaheen.jpg" alt="Image">
+                        </a>
+                        <div class="attorney-card-text">
+                            <h3><a href="">Shaheen Naseer</a></h3>
+                            <p>Senior Researcher at Oxford Martin School, UK</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="attorney-card">
+                        <a href="">
+                            <img src="assets/img/attorney/2.jpg" alt="Image">
+                        </a>
+                        <div class="attorney-card-text">
+                            <h3><a href="">Ifrah</a></h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="attorney-card">
+                        <a href="">
+                            <img src="assets/img/attorney/4.jpg" alt="Image">
+                        </a>
+                        <div class="attorney-card-text">
+                            <h3><a href="">Sultan</a></h3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-title" style="background-color: #9c232c;">
+                <h2 style="color: white;">Litigation Managers</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="attorney-card">
+                        <a href="">
+                            <img src="assets/img/attorney/11.jpg" alt="Image">
+                        </a>
+                        <div class="attorney-card-text">
+                            <h3><a href="">Rana Mohsin</a></h3>
 
                         </div>
                     </div>
                 </div>
 
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="attorney-card">
+                        <a href="">
+                            <img src="assets/img/attorney/22.jpg" alt="Image">
+                        </a>
+                        <div class="attorney-card-text">
+                            <h3><a href="">Ayaz Sheikh</a></h3>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="attorney-card">
+                        <a href="">
+                            <img src="assets/img/attorney/33.jpg" alt="Image">
+                        </a>
+                        <div class="attorney-card-text">
+                            <h3><a href="">Zohaib Hassan</a></h3>
+
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
+
             <!-- Pagination -->
-            <div class="col-lg-12 col-md-12">
+            {{-- <div class="col-lg-12 col-md-12">
                 <ul class="pagination">
                     <li class="page-item">
                         <a class="page-link" href="#" aria-label="Previous">
@@ -121,7 +218,7 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+            </div> --}}
         </div>
     </div>
     <!-- End Attorney Area -->

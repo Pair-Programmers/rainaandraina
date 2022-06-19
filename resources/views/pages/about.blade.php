@@ -105,7 +105,7 @@
                                 </div> -->
 
                         <div class="about-btn">
-                            <a href="contact.html" class="default-btn-one">Free Consulting</a>
+                            <a href="{{route('contact-us')}}" class="default-btn-one">Free Consulting</a>
                         </div>
                     </div>
                 </div>
@@ -125,8 +125,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="signle-fun-fact">
                         <i class="las la-balance-scale"></i>
-                        <h3><span class="odometer" data-count="5600">00</span>
-                            +</h3>
+                        <h3><span class="odometer" data-count="2000">00</span>+</h3>
                         <p>Solved Cases</p>
                     </div>
                 </div>
@@ -134,8 +133,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="signle-fun-fact">
                         <i class="las la-gavel"></i>
-                        <h3><span class="odometer" data-count="4000">00</span>
-                            +</h3>
+                        <h3><span class="odometer" data-count="2000">00</span>+</h3>
                         <p>Cases Won</p>
                     </div>
                 </div>
@@ -143,18 +141,16 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="signle-fun-fact">
                         <i class="las la-trophy"></i>
-                        <h3><span class="odometer" data-count="1500">00</span>
-                            +</h3>
-                        <p>Awards Won</p>
+                        <h3><span class="odometer" data-count="500">00</span>+</h3>
+                        <p>International Clients</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="signle-fun-fact">
                         <i class="lab la-gitkraken"></i>
-                        <h3><span class="odometer" data-count="10">00</span>
-                        </h3>
-                        <p>Top 10 Law Firms</p>
+                        <h3><span class="odometer" data-count="100">00</span>%</h3>
+                        <p>Global Reach</p>
                     </div>
                 </div>
             </div>
@@ -167,7 +163,7 @@
     <!-- Ends Fun Fact Area -->
 
     <!-- About Video Area -->
-    <div class="about-video-area ptb-100">
+    {{-- <div class="about-video-area ptb-100">
         <div class="container">
             <div class="about-video-contant">
                 <div class="d-table">
@@ -181,11 +177,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End About Video Area -->
 
     <!-- Choose Area -->
-    <div class="choose-area about-page-area pt-100 pb-70">
+    {{-- <div class="choose-area about-page-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
                 <h2>We Are Top Lawyers With <span> 21 Years</span> Of Experience</h2>
@@ -236,11 +232,11 @@
                         </div>
                     </div> -->
         </div>
-    </div>
+    </div> --}}
     <!-- End Choose Area -->
 
     <!-- Contact Area -->
-    <div class="contact-area ptb-100">
+    {{-- <div class="contact-area ptb-100">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -259,7 +255,7 @@
                             <div class="col-lg-6">
                                 <div class="contact-card">
                                     <span>Phone Number</span>
-                                    <h3><a href="tel:+0123456987">+92 334 0811101</a></h3>
+                                    <h3><a href="tel:+0123456987">+92 42 35787931</a></h3>
                                 </div>
                             </div>
 
@@ -268,23 +264,13 @@
                                     <span>Our Social Link</span>
                                     <ul>
                                         <li>
-                                            <a href="#" target="_blank">
+                                            <a href="https://www.facebook.com/RainaRaina99" target="_blank">
                                                 <i class="lab la-facebook-f"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#" target="_blank">
                                                 <i class="lab la-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" target="_blank">
-                                                <i class="lab la-instagram"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" target="_blank">
-                                                <i class="lab la-google-plus"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -357,11 +343,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Contact Area -->
 
     <!-- Partner Slider Area -->
-    <div class="partner-area ptb-100">
+    {{-- <div class="partner-area ptb-100">
         <div class="container">
             <div class="section-title">
                 <span>Our Partner</span>
@@ -396,7 +382,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Partner Slider Area -->
 @endsection
 

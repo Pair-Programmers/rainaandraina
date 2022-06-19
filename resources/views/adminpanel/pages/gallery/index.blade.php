@@ -185,7 +185,7 @@
                     data: {
                         "_token": "{{ csrf_token() }}"
                     },
-                    url: "{{ route('admin.blog.destroy', '') }}/" + id,
+                    url: "{{ route('admin.gallery.destroy', '') }}/" + id,
                     success: function(response) {
                         console.log(response);
                         if (response.success) {

@@ -65,7 +65,7 @@
                         <div class="atorn-gallery">
                             <img src="assets/img/testimonials/Bombay-chopaty.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
-                                <div class="card-header" style="color:white;">M/s Bombay-chopaty</div>
+                                <div class="card-header" style="color:white;">M/s Bombay-Chowpaty</div>
 
                               </div>
                             <div class="caption">
@@ -74,7 +74,7 @@
                                         <a href="assets/img/gallery/Bombay-chopaty.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
-                                                <div class="card-header" style="color:white;"> M/s Bombay-chopaty</div>
+                                                <div class="card-header" style="color:white;"> M/s Bombay-Chowpaty</div>
 
                                               </div>
 
@@ -207,7 +207,7 @@
                         <div class="atorn-gallery">
                             <img src="assets/img/testimonials/KOHINOOR-Mills1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
-                                <div class="card-header" style="color:white;">KOHINOOR Mills</div>
+                                <div class="card-header" style="color:white;">Kohinoor Mills</div>
 
                               </div>
                             <div class="caption">
@@ -216,7 +216,7 @@
                                         <a href="assets/img/testimonials/KOHINOOR-Mills1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
-                                                <div class="card-header" style="color:white;">KOHINOOR Mills</div>
+                                                <div class="card-header" style="color:white;">Kohinoor Mills</div>
 
                                               </div>
                                         </a>

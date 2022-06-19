@@ -60,7 +60,8 @@
                 </a>
                 <ul class="nav nav-second-level collapse">
                     <li><a href="{{ route('admin.gallery.create') }}">Upload</a></li>
-                    <li><a href="{{ route('admin.gallery.index') }}">List</a></li>
+                    <li><a href="{{ route('admin.gallery.index') }}">Image List</a></li>
+                    <li><a href="{{ route('admin.gallery-folder.index') }}">Folders</a></li>
                 </ul>
             </li>
 

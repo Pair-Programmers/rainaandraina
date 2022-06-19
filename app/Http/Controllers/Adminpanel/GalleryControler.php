@@ -7,6 +7,7 @@ use App\Models\Gallery;
 use App\Models\GalleryFolder;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\File;
 
 class GalleryControler extends Controller
 {
@@ -124,6 +125,12 @@ class GalleryControler extends Controller
      */
     public function destroy($id)
     {
-        //
+        $gallaryImage = Gallery::findOrFail($id);
+        if ($gallaryImage) {
+            File::delete(public_path().'/storage/images/gallery/'.$gallaryImage->image);
+            $gallaryImage->delete();
+            return response()->json(['success' => 'Deleted Successfully !']);
+        }
+        return response()->json(['error' => 'Error while deleting !']);
     }
 }
