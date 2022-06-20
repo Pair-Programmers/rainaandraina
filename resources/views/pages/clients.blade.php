@@ -39,7 +39,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/al-fateh1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/al-fateh1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">AL Fateh</div>
 
@@ -47,7 +47,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/al-fateh1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/al-fateh1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Al Fateh</div>
@@ -63,18 +63,18 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/Bombay-chopaty.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/Bombay-chopaty.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
-                                <div class="card-header" style="color:white;">M/s Bombay-Chowpaty</div>
+                                <div class="card-header" style="color:white;">M/S Bombay-Chowpaty</div>
 
                               </div>
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/gallery/Bombay-chopaty.jpg">
+                                        <a href="{{ asset('assets') }}/img/gallery/Bombay-chopaty.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
-                                                <div class="card-header" style="color:white;"> M/s Bombay-Chowpaty</div>
+                                                <div class="card-header" style="color:white;"> M/S Bombay-Chowpaty</div>
 
                                               </div>
 
@@ -87,7 +87,7 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/digitalworld1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/digitalworld1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Digital World</div>
 
@@ -95,7 +95,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/digitalworld1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/digitalworld1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Digital World</div>
@@ -111,7 +111,7 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/haier1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/haier1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Haier</div>
 
@@ -119,7 +119,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/haier1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/haier1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Haier</div>
@@ -135,18 +135,18 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/hunza-sugar-mill1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/hunza-sugar-mill1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
-                                <div class="card-header" style="color:white;"> M/s Hunza Sugar Mills</div>
+                                <div class="card-header" style="color:white;">M/S Hunza Sugar Mills</div>
 
                               </div>
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/hunza-sugar-mill1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/hunza-sugar-mill1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
-                                                <div class="card-header" style="color:white;">Hunza Sugar Mills</div>
+                                                <div class="card-header" style="color:white;">M/S Hunza Sugar Mills</div>
 
                                               </div>
 
@@ -159,18 +159,18 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/jdw1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/jdw1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
-                                <div class="card-header" style="color:white;">M/s Sugar Mills Ltd</div>
+                                <div class="card-header" style="color:white;">M/S JDW Sugar Mills Ltd</div>
 
                               </div>
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/jdw1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/jdw1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
-                                                <div class="card-header" style="color:white;">Sugar Mills Ltd</div>
+                                                <div class="card-header" style="color:white;">M/S JDW Sugar Mills Ltd</div>
 
                                               </div>
 
@@ -182,7 +182,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/shakarganj1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/shakarganj1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Shakarganj</div>
 
@@ -190,7 +190,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/shakarganj1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/shakarganj1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Shakarganj</div>
@@ -205,7 +205,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/KOHINOOR-Mills1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/KOHINOOR-Mills1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Kohinoor Mills</div>
 
@@ -213,7 +213,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/KOHINOOR-Mills1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/KOHINOOR-Mills1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Kohinoor Mills</div>
@@ -227,18 +227,18 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/Maple-Leaf-cement1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/Maple-Leaf-cement1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
-                                <div class="card-header" style="color:white;">M/s Maple Leaf Cement</div>
+                                <div class="card-header" style="color:white;">M/S Maple Leaf Cement</div>
 
                               </div>
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/Maple-Leaf-cement1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/Maple-Leaf-cement1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
-                                                <div class="card-header" style="color:white;">M/s Maple Leaf Cement</div>
+                                                <div class="card-header" style="color:white;">M/S Maple Leaf Cement</div>
 
                                               </div>
                                         </a>
@@ -249,7 +249,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/metaline1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/metaline1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Metaline Industries Ltd.</div>
 
@@ -257,7 +257,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/metaline1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/metaline1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Metaline Industries Ltd.</div>
@@ -271,7 +271,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/nestle1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/nestle1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Nestle</div>
 
@@ -279,7 +279,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/nestle1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/nestle1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Nestle</div>
@@ -293,7 +293,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/pak-arab- fertilizer1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/pak-arab- fertilizer1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Pakarab Fertilizers Limited</div>
 
@@ -301,7 +301,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/pak-arab- fertilizer1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/pak-arab- fertilizer1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Pakarab Fertilizers Limited</div>
@@ -315,7 +315,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/patoki1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/patoki1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Patoki Sugar Mills Ltd.</div>
 
@@ -323,7 +323,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/patoki1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/patoki1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Patoki Sugar Mills Ltd.</div>
@@ -337,7 +337,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/rina1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/rina1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Rina's Kitchenette</div>
 
@@ -345,7 +345,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/rina1.jpg.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/rina1.jpg.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Rina's Kitchenette</div>
@@ -359,7 +359,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/standard-brand1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/standard-brand1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Standard Brands</div>
 
@@ -367,7 +367,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/standard-brand1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/standard-brand1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Standard Brands</div>
@@ -381,7 +381,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/glorea-jeans.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/glorea-jeans.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Glorea Jeans</div>
 
@@ -389,7 +389,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/glorea-jeans.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/glorea-jeans.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Glorea Jeans</div>
@@ -403,18 +403,18 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/Chanar_Logo_original.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/Chanar_Logo_original.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
-                                <div class="card-header" style="color:white;">M/s Chanar Sugar Mills Ltd.</div>
+                                <div class="card-header" style="color:white;">M/S Chanar Sugar Mills Ltd.</div>
 
                               </div>
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/Chanar_Logo_original.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/Chanar_Logo_original.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
-                                                <div class="card-header" style="color:white;">M/s Chanar Sugar Mills Ltd.</div>
+                                                <div class="card-header" style="color:white;">M/S Chanar Sugar Mills Ltd.</div>
 
                                               </div>
                                         </a>
@@ -425,7 +425,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/etihad1.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/etihad1.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Etihad Sugar Mills LIMITED</div>
 
@@ -433,7 +433,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/etihad1.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/etihad1.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Etihad Sugar Mills LIMITED</div>
@@ -447,7 +447,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/metro3.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/metro3.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Metro</div>
 
@@ -455,7 +455,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/metro3.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/metro3.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Metro</div>
@@ -469,7 +469,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="atorn-gallery">
-                            <img src="assets/img/testimonials/hilal.jpg" alt="image">
+                            <img src="{{ asset('assets') }}/img/testimonials/hilal.jpg" alt="image">
                             <div class="card" style="background-color:#0f3041">
                                 <div class="card-header" style="color:white;">Al Hilal Group</div>
 
@@ -477,7 +477,7 @@
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
-                                        <a href="assets/img/testimonials/hilal.jpg">
+                                        <a href="{{ asset('assets') }}/img/testimonials/hilal.jpg">
                                             <i class="las la-eye"></i>
                                             <div class="card" style="background-color:#0f3041">
                                                 <div class="card-header" style="color:white;">Al Hilal Group</div>
@@ -490,7 +490,28 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-3 col-md-6">
+                        <div class="atorn-gallery">
+                            <img src="{{ asset('assets') }}/img/testimonials/orient-electronics.jpg" alt="image">
+                            <div class="card" style="background-color:#0f3041">
+                                <div class="card-header" style="color:white;">Orient Electronics</div>
 
+                              </div>
+                            <div class="caption">
+                                <div class="d-table">
+                                    <div class="d-table-cell">
+                                        <a href="{{ asset('assets') }}/img/testimonials/orient-electronics.jpg">
+                                            <i class="las la-eye"></i>
+                                            <div class="card" style="background-color:#0f3041">
+                                                <div class="card-header" style="color:white;">Orient Electronics</div>
+
+                                              </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>

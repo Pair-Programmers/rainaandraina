@@ -36,7 +36,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-5">
                     <div class="about-image">
-                        <img src="assets/img/about.png" alt="Image">
+                        <img src="{{asset('assets/img')}}/about.png" alt="Image">
                     </div>
                 </div>
 
