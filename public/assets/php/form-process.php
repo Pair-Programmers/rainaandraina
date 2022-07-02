@@ -61,8 +61,9 @@ $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
 
+$headers = "From: ContactUs: ".$userName." <no-reply@rainaandraina.com>";
 // send email
-$success = mail($EmailTo, $Subject, $Body);
+$success = mail($EmailTo, $Subject, $Body, $headers);
 
 // redirect to success page
 if ($success && $errorMSG == ""){
