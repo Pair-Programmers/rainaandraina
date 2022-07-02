@@ -61,7 +61,7 @@ $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
 
-$headers = "From: ContactUs: ".$userName." <no-reply@rainaandraina.com>";
+$headers = "From: ContactUs: ".$email." <no-reply@rainaandraina.com>";
 // send email
 $success = mail($EmailTo, $Subject, $Body, $headers);
 
