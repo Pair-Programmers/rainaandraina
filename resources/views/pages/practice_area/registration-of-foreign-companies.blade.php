@@ -35,7 +35,7 @@
                 <div class="col-lg-8 col-md-7 col-sm-12">
                     <div class="services-details">
                         <div class="img">
-                            <img src="{{asset('assets')}}/img/services/Professional_negligence_1_575x400.jpg" alt="Professional_negligence_1_575x400.jpg">
+                            <img src="{{asset('assets')}}/img/services/registration-of-foreign-companies.jpg" alt="Professional_negligence_1_575x400.jpg">
                         </div>
                         <div class="services-details-content">
                             <h3>Registration of Foreign Companies</h3>

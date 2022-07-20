@@ -311,7 +311,7 @@
 
                 <div class="testimonials-slider-item">
                     <div class="testimonials-img">
-                        <img src="{{ asset('assets') }}/img/services/Professional_negligence_1_575x400.jpg" alt="Image">
+                        <img src="{{ asset('assets') }}/img/services/registration-of-foreign-companies.jpg" alt="Image">
                     </div>
                     <div class="img-text">
                         <h3>Professional Negligence Dispute</h3>
