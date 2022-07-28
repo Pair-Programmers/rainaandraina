@@ -212,11 +212,12 @@
             <div class="testimonials-slider owl-carousel owl-theme">
                 <div class="testimonials-slider-item">
                     <div class="testimonials-img">
-                        <img src="{{ asset('assets') }}/img/services/TAX_AUDITS__APPEALS_1_575x400.jpg" alt="Image">
+                        <img src="{{ asset('assets') }}/img/services/slider/TAX_AUDITS__APPEALS_1_575x400.jpg" alt="Image">
                     </div>
                     <div class="img-text">
                         <h3>Tax Audits & Apeals</h3>
-                        <p>Raina & Raina tax lawyers provide comprehensive legal advice covering all areas </p>
+                        <p>Raina & Raina tax lawyers provide comprehensive legal advice covering all areas of tax law
+                            including planning, ...</p>
                         <a href="{{ route('practice-area.tax-audit') }}">
                             Read More
                             <i class="las la-angle-double-right"></i>
@@ -226,11 +227,12 @@
 
                 <div class="testimonials-slider-item">
                     <div class="testimonials-img">
-                        <img src="{{ asset('assets') }}/img/services/Corporate_and_Commercial_2_575x400.jpg" alt="Image">
+                        <img src="{{ asset('assets') }}/img/services/slider/Corporate_and_Commercial_2_575x400.jpg" alt="Image">
                     </div>
                     <div class="img-text">
                         <h3>Corporate and Commercial</h3>
-                        <p>Raina & Raina has a thriving Corporate and Commercial litigation practice representing</p>
+                        <p>Raina & Raina has a thriving Corporate and Commercial litigation practice representing
+                            foreign and local clients ...</p>
                         <a href="{{ route('practice-area.corporate') }}">
                             Read More
                             <i class="las la-angle-double-right"></i>
@@ -240,11 +242,12 @@
 
                 <div class="testimonials-slider-item">
                     <div class="testimonials-img">
-                        <img src="{{ asset('assets') }}/img/services/INTERNATIONAL_LAW_1_575x400.jpg" alt="Image">
+                        <img src="{{ asset('assets') }}/img/services/slider/INTERNATIONAL_LAW_1_575x400.jpg" alt="Image">
                     </div>
                     <div class="img-text">
                         <h3>International Law</h3>
-                        <p>Raina & Raina has unrivalled expertise in advice and advocacy on all aspects </p>
+                        <p>Raina & Raina has unrivalled expertise in advice and advocacy on all aspects of international
+                            law. DSI comprises the ...</p>
                         <a href="{{ route('practice-area.international') }}">
                             Read More
                             <i class="las la-angle-double-right"></i>
@@ -254,11 +257,11 @@
 
                 <div class="testimonials-slider-item">
                     <div class="testimonials-img">
-                        <img src="{{ asset('assets') }}/img/services/Professional_negligence_1_575x400.jpg" alt="Image">
+                        <img src="{{ asset('assets') }}/img/services/slider/registration-of-foreign-companies.jpg" alt="Image">
                     </div>
                     <div class="img-text">
                         <h3>Registration of Foreign Companies</h3>
-                        <p>Our law firm’s competence in Pakistan is also..</p>
+                        <p>Our law firm’s competence in Pakistan is also represented by legal advice and ...</p>
                         <a href="{{ route('practice-area.registration-of-foreign-companies') }}">
                             Read More
                             <i class="las la-angle-double-right"></i>
@@ -268,11 +271,11 @@
 
                 <div class="testimonials-slider-item">
                     <div class="testimonials-img">
-                        <img src="{{ asset('assets') }}/img/services/property-and-real-estate.jpg" alt="Image">
+                        <img src="{{ asset('assets') }}/img/services/slider/property-and-real-estate.jpg" alt="Image">
                     </div>
                     <div class="img-text">
                         <h3>Property and Real Estate</h3>
-                        <p>Raina & Raina is involved in providing services and assistance to our clients in buying</p>
+                        <p>Raina & Raina is involved in providing services and assistance to our clients in buying and selling of both movable and ...</p>
                         <a href="{{ route('practice-area.property-and-real-estate') }}">
                             Read More
                             <i class="las la-angle-double-right"></i>
@@ -282,12 +285,12 @@
 
                 <div class="testimonials-slider-item">
                     <div class="testimonials-img">
-                        <img src="{{ asset('assets') }}/img/services/ALTERNATE_DISPUTE_RESOLUTION_1_575x400.jpg" alt="Image">
+                        <img src="{{ asset('assets') }}/img/services/slider/ALTERNATE_DISPUTE_RESOLUTION_1_575x400.jpg" alt="Image">
                     </div>
                     <div class="img-text">
                         <h3>Alternate Dispute
                             Resolution</h3>
-                        <p>Raina & Raina law firm houses several attorneys who are also experienced mediators</p>
+                        <p>Raina & Raina law firm houses several attorneys who are also experienced ..</p>
                         <a href="{{ route('practice-area.alternate-dispute') }}">
                             Read More
                             <i class="las la-angle-double-right"></i>
@@ -297,11 +300,12 @@
 
                 <div class="testimonials-slider-item">
                     <div class="testimonials-img">
-                        <img src="{{ asset('assets') }}/img/services/civil_575x400.jpg" alt="Image">
+                        <img src="{{ asset('assets') }}/img/services/slider/civil_575x400.jpg" alt="Image">
                     </div>
                     <div class="img-text">
                         <h3>Civil Law And Appeals</h3>
-                        <p>The Crime Team at Raina & Raina offers a genuinely holistic </p>
+                        <p>The Crime Team at Raina & Raina offers a genuinely holistic advice and advocacy service
+                            for all issues relating to criminal ..</p>
                         <a href="{{ route('practice-area.civil') }}">
                             Read More
                             <i class="las la-angle-double-right"></i>
@@ -311,11 +315,11 @@
 
                 <div class="testimonials-slider-item">
                     <div class="testimonials-img">
-                        <img src="{{ asset('assets') }}/img/services/registration-of-foreign-companies.jpg" alt="Image">
+                        <img src="{{ asset('assets') }}/img/services/slider/Professional_negligence_1_575x400.jpg" alt="Image">
                     </div>
                     <div class="img-text">
                         <h3>Professional Negligence Dispute</h3>
-                        <p>Our global team of professional negligence</p>
+                        <p>Our global team of professional negligence lawyers’s advice, act on and ..</p>
                         <a href="{{ route('practice-area.prof-negligence') }}">
                             Read More
                             <i class="las la-angle-double-right"></i>
