@@ -41,7 +41,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/faisal.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/attorney/faisal.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Faisal Naseer Rana</a></h3>
@@ -62,7 +62,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/attorney1.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/attorney/attorney1.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Azeem Danyal</a></h3>
@@ -75,7 +75,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/yasir.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/attorney/yasir.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Yasir Naseer Rana</a></h3>
@@ -88,7 +88,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/4.JPG" alt="Image">
+                            <img src="{{asset('assets')}}/img/attorney/mujahid.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Mujahid Arshad</a></h3>
@@ -96,15 +96,13 @@
                         </div>
                     </div>
                 </div>
+
             </div>
-
             <div class="row justify-content-center">
-
-
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/2.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/attorney/sardar.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Sardar Ali Bhatti</a></h3>
@@ -112,9 +110,68 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="attorney-card">
+                        <a href="">
+                            <img src="{{asset('assets')}}/img/attorney/muzzamil-hussain.jpg" alt="Image">
+                        </a>
+                        <div class="attorney-card-text">
+                            <h3><a href="">Muzammil Hussain</a></h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="attorney-card">
+                        <a href="">
+                            <img src="{{asset('assets')}}/img/attorney/m-wasif.jpg" alt="Image">
+                        </a>
+                        <div class="attorney-card-text">
+                            <h3><a href="">Rana Muhammad Wasif</a></h3>
+
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="attorney-card">
+                        <a href="">
+                            <img src="{{asset('assets')}}/img/attorney/saba-iqbal.jpg" alt="Image">
+                        </a>
+                        <div class="attorney-card-text">
+                            <h3><a href="">Saba Iqbal</a></h3>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="attorney-card">
+                        <a href="">
+                            <img src="{{asset('assets')}}/img/attorney/eshm-suhaib.jpg" alt="Image">
+                        </a>
+                        <div class="attorney-card-text">
+                            <h3><a href="">Eshm Suhaib</a></h3>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="attorney-card">
+                        <a href="">
+                            <img src="{{asset('assets')}}/img/attorney/sabahat-razzaq.jpg" alt="Image">
+                        </a>
+                        <div class="attorney-card-text">
+                            <h3><a href="">Sabahat Razzaq</a></h3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="section-title" style="background-color: #9c232c;">
                 <h2 style="color: white;">Senior Consultants</h2>
@@ -124,7 +181,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/shaheen.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/attorney/shaheen.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Dr Shaheen Naseer Rana</a></h3>
@@ -137,7 +194,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/sultan.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/attorney/sultan.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Dr Sultan Mehmood</a></h3>
@@ -153,7 +210,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/11.JPG" alt="Image">
+                            <img src="{{asset('assets')}}/img/attorney/11.JPG" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Rana Mohsin</a></h3>
@@ -166,7 +223,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/22.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/attorney/ayaz.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Ayaz Sheikh</a></h3>
@@ -178,7 +235,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="attorney-card">
                         <a href="">
-                            <img src="assets/img/attorney/33.jpg" alt="Image">
+                            <img src="{{asset('assets')}}/img/attorney/zohaib.jpg" alt="Image">
                         </a>
                         <div class="attorney-card-text">
                             <h3><a href="">Zohaib Hassan</a></h3>
