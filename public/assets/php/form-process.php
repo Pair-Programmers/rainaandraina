@@ -70,7 +70,7 @@ if ($success && $errorMSG == ""){
    echo "success";
 }else{
     if($errorMSG == ""){
-        echo "Something went wrong :(";
+        echo $errorMSG . "Something went wrong :(";
     } else {
         echo $errorMSG;
     }
