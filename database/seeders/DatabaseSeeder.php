@@ -2,10 +2,8 @@
 
 namespace Database\Seeders;
 
-use App\Models\Admin;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Storage;
 
 class DatabaseSeeder extends Seeder
 {
@@ -16,6 +14,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        Storage::makeDirectory('public/images/blogs');
+        Storage::makeDirectory('public/images/blogs/thumbnail');
         $this->call(AdminSeeder::class);
         $this->call(BlogCategorySeeder::class);
         $this->call(BlogSeeder::class);

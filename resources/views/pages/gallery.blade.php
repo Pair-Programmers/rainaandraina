@@ -45,7 +45,7 @@
                         <img src="assets/img/gallery/gpic1.jpg" alt="image">
                     @endforelse
 
-                        {{$folder->name}} Images
+                        {{$folder->name}}
                 </div>
             </a>
             </div>
