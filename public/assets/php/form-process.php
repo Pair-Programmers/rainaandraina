@@ -69,6 +69,7 @@ $success = mail($EmailTo, $Subject, $Body, $headers);
 if ($success && $errorMSG == ""){
    echo "success";
 }else{
+    echo $success;
     if($errorMSG == ""){
         echo $errorMSG . "Something went wrong :(";
     } else {
