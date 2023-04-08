@@ -102,7 +102,7 @@
 
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" name="phone_number" class="form-control" id="Phone" required
+                                        <input type="text" name="phone_number" class="form-control" id="phone_number" required
                                             data-error="Please enter your phone" placeholder="Phone No">
                                         <div class="help-block with-errors"></div>
                                         <i class="las la-phone"></i>
@@ -111,7 +111,7 @@
 
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" name="msg_subject" class="form-control" id="subject" required
+                                        <input type="text" name="msg_subject" class="form-control" id="msg_subject" required
                                             data-error="Please enter your subject" placeholder="Your subject">
                                         <div class="help-block with-errors"></div>
                                         <i class="las la-id-card"></i>
