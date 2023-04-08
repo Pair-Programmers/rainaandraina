@@ -39,9 +39,9 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "mianhamza7262@gmail.com";
+$EmailTo = "rrainaadvocates@gmail.com";
 
-$Subject = "New Message Received";
+$Subject = "New Message Contactus Form";
 
 // prepare email body text
 $Body = "";
@@ -61,7 +61,9 @@ $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
 
-$headers = "From: ContactUs: ".$email." <no-reply@rainaandraina.com>";
+$headers = 'From: Raina Contactus Form <no-reply@rainaandraina.com>' . "\r\n" .
+    'Reply-To: rrainaadvocates@gmail.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
 // send email
 $success = mail($EmailTo, $Subject, $Body, $headers);
 
@@ -69,7 +71,6 @@ $success = mail($EmailTo, $Subject, $Body, $headers);
 if ($success && $errorMSG == ""){
    echo "success";
 }else{
-    echo $success;
     if($errorMSG == ""){
         echo $errorMSG . "Something went wrong :(";
     } else {
