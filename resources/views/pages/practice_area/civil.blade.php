@@ -41,7 +41,7 @@ and fraud, extradition, international crime,">
                         </div>
                         <div class="services-details-content">
                             <h3>Civil Law And Appeals</h3>
-                            <p><b>The Crime Team at Raina & Raina offers a genuinely holistic advice and advocacy service
+                            <p><b>The Civil regulating affairs team at Raina & Raina offers a genuinely holistic advice and advocacy service
                                     for all issues relating to criminal justice including trials, appeals, business crime
                                     and fraud, extradition, international crime, and civil and public law issues arising
                                     from criminal proceedings. Few other sets offer such broad experience in criminal law
