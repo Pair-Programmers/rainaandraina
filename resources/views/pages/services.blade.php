@@ -217,7 +217,7 @@
                             <!-- <i class="las la-balance-scale-right"></i> -->
                             <h3><a href="{{ route('practice-area.criminal') }}">Criminal Law And Appeals <span> </span></a>
                             </h3>
-                            <p>The Civil regulating affairs team at Raina & Raina offers a genuinely holistic advice and advocacy service for
+                            <p>The Crime Team at Raina & Raina offers a genuinely holistic advice and advocacy service for
                                 all issues relating to criminal justice including trials, appeals, business crime and fraud,
                                 extradition, international crime, and civil and public</p>
                         </div>
@@ -231,7 +231,7 @@
                         <div class="service-text">
                             <!-- <i class="las la-balance-scale-right"></i> -->
                             <h3><a href="{{ route('practice-area.civil') }}">Civil Law And Appeals <span> </span></a></h3>
-                            <p>The Crime Team at Raina & Raina offers a genuinely holistic advice and advocacy service for
+                            <p>The Civil regulating affairs team at Raina & Raina offers a genuinely holistic advice and advocacy service for
                                 all issues relating to criminal justice including trials, appeals, business crime and fraud,
                                 extradition, international crime, and civil and public law issues arising </p>
                         </div>
